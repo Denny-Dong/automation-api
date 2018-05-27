@@ -1,0 +1,75 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": {
+    "$id": "http://example.com/example.json/items",
+    "type": "object",
+    "properties": {
+      "id": {
+        "$id": "http://example.com/example.json/items/properties/id",
+        "type": "integer",
+        "title": "The Id Schema ",
+        "default": 0,
+        "examples": [
+          48807
+        ]
+      },
+      "name": {
+        "$id": "http://example.com/example.json/items/properties/name",
+        "type": "string",
+        "title": "The Name Schema ",
+        "default": "",
+        "examples": [
+          "API测试新建租客"
+        ]
+      },
+      "bank": {
+        "$id": "http://example.com/example.json/items/properties/bank",
+        "type": "string",
+        "title": "The Bank Schema ",
+        "default": "",
+        "examples": [
+          "中国银行"
+        ]
+      },
+      "account": {
+        "$id": "http://example.com/example.json/items/properties/account",
+        "type": "string",
+        "title": "The Account Schema ",
+        "default": "",
+        "examples": [
+          "12345678"
+        ]
+      },
+      "taxpayerIdNumber": {
+        "$id": "http://example.com/example.json/items/properties/taxpayerIdNumber",
+        "type": "string",
+        "title": "The Taxpayeridnumber Schema ",
+        "default": "",
+        "examples": [
+          "12345678"
+        ]
+      },
+      "tel": {
+        "$id": "http://example.com/example.json/items/properties/tel",
+        "type": "string",
+        "title": "The Tel Schema ",
+        "default": "",
+        "examples": [
+          "13545676543"
+        ]
+      },
+      "address": {
+        "$id": "http://example.com/example.json/items/properties/address",
+        "type": "string",
+        "title": "The Address Schema ",
+        "default": "",
+        "examples": [
+          "杭州滨江"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "theoryPayDate": {
+      "$id": "/properties/theoryPayDate",
+      "type": "integer"
+    },
+    "startDate": {
+      "$id": "/properties/startDate",
+      "type": "integer"
+    },
+    "endDate": {
+      "$id": "/properties/endDate",
+      "type": "integer"
+    },
+    "finalPrice": {
+      "$id": "/properties/finalPrice",
+      "type": "integer"
+    },
+    "priceUnitEnum": {
+      "$id": "/properties/priceUnitEnum",
+      "type": "string"
+    },
+    "termIndex": {
+      "$id": "/properties/termIndex",
+      "type": "integer"
+    },
+    "theoryPayMoney": {
+      "$id": "/properties/theoryPayMoney",
+      "type": "number"
+    },
+    "payEnum": {
+      "$id": "/properties/payEnum",
+      "type": "string"
+    },
+    "generateBills": {
+      "$id": "/properties/generateBills",
+      "type": "boolean"
+    },
+    "normalIndex": {
+      "$id": "/properties/normalIndex",
+      "type": "string"
+    },
+    "applyDate": {
+      "$id": "/properties/applyDate",
+      "type": "null"
+    },
+    "increaseNumber": {
+      "$id": "/properties/increaseNumber",
+      "type": "null"
+    },
+    "increaseRateEnum": {
+      "$id": "/properties/increaseRateEnum",
+      "type": "null"
+    }
+  }
+}

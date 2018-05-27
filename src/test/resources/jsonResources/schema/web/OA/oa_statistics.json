@@ -1,0 +1,26 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "contractTodoCount": {
+      "$id": "/properties/contractTodoCount",
+      "type": "integer",
+      "title": "The Contracttodocount Schema ",
+      "default": 0,
+      "examples": [
+        11
+      ]
+    },
+    "demandTodoCount": {
+      "$id": "/properties/demandTodoCount",
+      "type": "integer",
+      "title": "The Demandtodocount Schema ",
+      "default": 0,
+      "examples": [
+        3
+      ]
+    }
+  }
+}

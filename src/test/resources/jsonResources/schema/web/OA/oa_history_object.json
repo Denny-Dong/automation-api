@@ -1,0 +1,57 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "current": {
+      "$id": "/properties/current",
+      "type": "null",
+      "title": "The Current Schema ",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "history": {
+      "$id": "/properties/history",
+      "type": "array"
+    },
+    "enableRestart": {
+      "$id": "/properties/enableRestart",
+      "type": "boolean",
+      "title": "The Enablerestart Schema ",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "hasRuntime": {
+      "$id": "/properties/hasRuntime",
+      "type": "boolean",
+      "title": "The Hasruntime Schema ",
+      "default": false,
+      "examples": [
+        false
+      ]
+    },
+    "everStarted": {
+      "$id": "/properties/everStarted",
+      "type": "boolean",
+      "title": "The Everstarted Schema ",
+      "default": false,
+      "examples": [
+        false
+      ]
+    },
+    "enableWithdraw": {
+      "$id": "/properties/enableWithdraw",
+      "type": "boolean",
+      "title": "The Enablewithdraw Schema ",
+      "default": false,
+      "examples": [
+        false
+      ]
+    }
+  }
+}

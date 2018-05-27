@@ -1,0 +1,106 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "dayNumberForYear": {
+      "$id": "/properties/dayNumberForYear",
+      "type": "integer"
+    },
+    "priceUnit": {
+      "$id": "/properties/priceUnit",
+      "type": "string"
+    },
+    "rooms": {
+      "$id": "/properties/rooms",
+      "type": "array",
+      "items": {
+        "$id": "/properties/rooms/items",
+        "type": "object",
+        "properties": {
+          "roomNumber": {
+            "$id": "/properties/rooms/items/properties/roomNumber",
+            "type": "string"
+          },
+          "floor": {
+            "$id": "/properties/rooms/items/properties/floor",
+            "type": "string"
+          },
+          "roomId": {
+            "$id": "/properties/rooms/items/properties/roomId",
+            "type": "integer"
+          },
+          "areaSize": {
+            "$id": "/properties/rooms/items/properties/areaSize",
+            "type": "number"
+          }
+        }
+      }
+    },
+    "endDate": {
+      "$id": "/properties/endDate",
+      "type": "integer"
+    },
+    "creationStatus": {
+      "$id": "/properties/creationStatus",
+      "type": "string"
+    },
+    "contractNo": {
+      "$id": "/properties/contractNo",
+      "type": "string"
+    },
+    "hasTerminated": {
+      "$id": "/properties/hasTerminated",
+      "type": "boolean"
+    },
+    "showStatus": {
+      "$id": "/properties/showStatus",
+      "type": "string"
+    },
+    "firstPayTermPrice": {
+      "$id": "/properties/firstPayTermPrice",
+      "type": "number"
+    },
+    "spaceUnit": {
+      "$id": "/properties/spaceUnit",
+      "type": "string"
+    },
+    "buildingName": {
+      "$id": "/properties/buildingName",
+      "type": "string"
+    },
+    "renewContract": {
+      "$id": "/properties/renewContract",
+      "type": "boolean"
+    },
+    "hasRenewed": {
+      "$id": "/properties/hasRenewed",
+      "type": "boolean"
+    },
+    "tenantName": {
+      "$id": "/properties/tenantName",
+      "type": "string"
+    },
+    "tenantId": {
+      "$id": "/properties/tenantId",
+      "type": "integer"
+    },
+    "id": {
+      "$id": "/properties/id",
+      "type": "integer"
+    },
+    "auditStatusName": {
+      "$id": "/properties/auditStatusName",
+      "type": "string"
+    },
+    "startDate": {
+      "$id": "/properties/startDate",
+      "type": "integer"
+    },
+    "buildingType": {
+      "$id": "/properties/buildingType",
+      "type": "string"
+    }
+  }
+}

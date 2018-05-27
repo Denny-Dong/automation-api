@@ -1,0 +1,84 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": {
+    "$id": "http://example.com/example.json/items",
+    "type": "object",
+    "properties": {
+      "provinceId": {
+        "$id": "http://example.com/example.json/items/properties/provinceId",
+        "type": "integer",
+        "title": "The Provinceid Schema ",
+        "default": 0,
+        "examples": [
+          11
+        ]
+      },
+      "provinceName": {
+        "$id": "http://example.com/example.json/items/properties/provinceName",
+        "type": "string",
+        "title": "The Provincename Schema ",
+        "default": "",
+        "examples": [
+          "浙江省"
+        ]
+      },
+      "cityId": {
+        "$id": "http://example.com/example.json/items/properties/cityId",
+        "type": "integer",
+        "title": "The Cityid Schema ",
+        "default": 0,
+        "examples": [
+          121
+        ]
+      },
+      "cityName": {
+        "$id": "http://example.com/example.json/items/properties/cityName",
+        "type": "string",
+        "title": "The Cityname Schema ",
+        "default": "",
+        "examples": [
+          "杭州市"
+        ]
+      },
+      "areaId": {
+        "$id": "http://example.com/example.json/items/properties/areaId",
+        "type": "integer",
+        "title": "The Areaid Schema ",
+        "default": 0,
+        "examples": [
+          1202
+        ]
+      },
+      "areaName": {
+        "$id": "http://example.com/example.json/items/properties/areaName",
+        "type": "string",
+        "title": "The Areaname Schema ",
+        "default": "",
+        "examples": [
+          "西湖区"
+        ]
+      },
+      "blockId": {
+        "$id": "http://example.com/example.json/items/properties/blockId",
+        "type": "integer",
+        "title": "The Blockid Schema ",
+        "default": 0,
+        "examples": [
+          3263
+        ]
+      },
+      "blockName": {
+        "$id": "http://example.com/example.json/items/properties/blockName",
+        "type": "string",
+        "title": "The Blockname Schema ",
+        "default": "",
+        "examples": [
+          "城西商圈"
+        ]
+      }
+    }
+  }
+}

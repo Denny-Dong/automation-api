@@ -1,0 +1,134 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "startBy": {
+      "$id": "/properties/startBy",
+      "type": "object",
+      "properties": {
+        "id": {
+          "$id": "/properties/startBy/properties/id",
+          "type": "integer"
+        },
+        "name": {
+          "$id": "/properties/startBy/properties/name",
+          "type": "string"
+        }
+      }
+    },
+    "startTime": {
+      "$id": "/properties/startTime",
+      "type": "integer"
+    },
+    "taskModel": {
+      "$id": "/properties/taskModel",
+      "type": "object",
+      "properties": {
+        "approver": {
+          "$id": "/properties/taskModel/properties/approver",
+          "type": "object",
+          "properties": {
+            "id": {
+              "$id": "/properties/taskModel/properties/approver/properties/id",
+              "type": "integer"
+            },
+            "name": {
+              "$id": "/properties/taskModel/properties/approver/properties/name",
+              "type": "string"
+            }
+          }
+        },
+        "queue": {
+          "$id": "/properties/taskModel/properties/queue",
+          "type": "integer"
+        },
+        "operateTime": {
+          "$id": "/properties/taskModel/properties/operateTime",
+          "type": ["null","string","number","object"]
+        },
+        "status": {
+          "$id": "/properties/taskModel/properties/status",
+          "type": ["null","string","number","object"]
+        },
+        "comment": {
+          "$id": "/properties/taskModel/properties/comment",
+          "type": ["null","string","number","object"]
+        }
+      }
+    },
+    "taskModels": {
+      "$id": "/properties/taskModels",
+      "type": "array",
+      "items": {
+        "$id": "/properties/taskModels/items",
+        "type": "object",
+        "properties": {
+          "approver": {
+            "$id": "/properties/taskModels/items/properties/approver",
+            "type": "object",
+            "properties": {
+              "id": {
+                "$id": "/properties/taskModels/items/properties/approver/properties/id",
+                "type": "integer"
+              },
+              "name": {
+                "$id": "/properties/taskModels/items/properties/approver/properties/name",
+                "type": "string"
+              }
+            }
+          },
+          "queue": {
+            "$id": "/properties/taskModels/items/properties/queue",
+            "type": "integer"
+          },
+          "operateTime": {
+            "$id": "/properties/taskModels/items/properties/operateTime",
+            "type": ["null","string","number","object"]
+          },
+          "status": {
+            "$id": "/properties/taskModels/items/properties/status",
+            "type": ["null","string","number","object"]
+          },
+          "comment": {
+            "$id": "/properties/taskModels/items/properties/comment",
+            "type": ["null","string","number","object"]
+          }
+        }
+      }
+    },
+    "workflowSettingsId": {
+      "$id": "/properties/workflowSettingsId",
+      "type": ["null","string","number","object"]
+    },
+    "buildingId": {
+      "$id": "/properties/buildingId",
+      "type": "integer"
+    },
+    "domainType": {
+      "$id": "/properties/domainType",
+      "type": "string"
+    },
+    "subDomainType": {
+      "$id": "/properties/subDomainType",
+      "type": "string"
+    },
+    "objectId": {
+      "$id": "/properties/objectId",
+      "type": "integer"
+    },
+    "description": {
+      "$id": "/properties/description",
+      "type": "string"
+    },
+    "workflowId": {
+      "$id": "/properties/workflowId",
+      "type": "integer"
+    },
+    "resultStatus": {
+      "$id": "/properties/resultStatus",
+      "type": ["null","string","number","object"]
+    }
+  }
+}

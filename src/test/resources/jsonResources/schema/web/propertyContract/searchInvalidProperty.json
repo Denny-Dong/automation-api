@@ -1,0 +1,119 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "id": {
+      "$id": "/properties/id",
+      "type": "integer",
+      "title": "The Id Schema ",
+      "default": 0,
+      "examples": [
+        2112
+      ]
+    },
+    "memo": {
+      "$id": "/properties/memo",
+      "type": "string",
+      "title": "The Memo Schema ",
+      "default": "",
+      "examples": [
+        "string"
+      ]
+    },
+    "auditStatus": {
+      "$id": "/properties/auditStatus",
+      "type": "string",
+      "title": "The Auditstatus Schema ",
+      "default": "",
+      "examples": [
+        "NONE"
+      ]
+    },
+    "action": {
+      "$id": "/properties/action",
+      "type": "string",
+      "title": "The Action Schema ",
+      "default": "",
+      "examples": [
+        "CLOSE_ALL_BILLS"
+      ]
+    },
+    "createdBy": {
+      "$id": "/properties/createdBy",
+      "type": "object",
+      "properties": {
+        "id": {
+          "$id": "/properties/createdBy/properties/id",
+          "type": "integer",
+          "title": "The Id Schema ",
+          "default": 0,
+          "examples": [
+            2155
+          ]
+        },
+        "name": {
+          "$id": "/properties/createdBy/properties/name",
+          "type": "string",
+          "title": "The Name Schema ",
+          "default": "",
+          "examples": [
+            "联系人1"
+          ]
+        }
+      }
+    },
+    "createdDate": {
+      "$id": "/properties/createdDate",
+      "type": "integer",
+      "title": "The Createddate Schema ",
+      "default": 0,
+      "examples": [
+        1520994292000
+      ]
+    },
+    "lastModifiedBy": {
+      "$id": "/properties/lastModifiedBy",
+      "type": "object",
+      "properties": {
+        "id": {
+          "$id": "/properties/lastModifiedBy/properties/id",
+          "type": "integer",
+          "title": "The Id Schema ",
+          "default": 0,
+          "examples": [
+            2155
+          ]
+        },
+        "name": {
+          "$id": "/properties/lastModifiedBy/properties/name",
+          "type": "string",
+          "title": "The Name Schema ",
+          "default": "",
+          "examples": [
+            "联系人1"
+          ]
+        }
+      }
+    },
+    "lastModifiedDate": {
+      "$id": "/properties/lastModifiedDate",
+      "type": "integer",
+      "title": "The Lastmodifieddate Schema ",
+      "default": 0,
+      "examples": [
+        1520994292000
+      ]
+    },
+    "contractId": {
+      "$id": "/properties/contractId",
+      "type": "integer",
+      "title": "The Contractid Schema ",
+      "default": 0,
+      "examples": [
+        5894
+      ]
+    }
+  }
+}

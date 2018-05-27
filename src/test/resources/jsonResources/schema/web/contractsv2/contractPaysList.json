@@ -1,0 +1,99 @@
+{
+  "$id": "http://example.com/example.json", 
+  "type": "object", 
+  "definitions": {}, 
+  "$schema": "http://json-schema.org/draft-07/schema#", 
+  "properties": {
+    "theoryPayDate": {
+      "$id": "/properties/theoryPayDate", 
+      "type": "integer", 
+      "examples": [
+        1521648000000
+      ]
+    }, 
+    "startDate": {
+      "$id": "/properties/startDate", 
+      "type": "integer", 
+      "examples": [
+        1521648000000
+      ]
+    }, 
+    "endDate": {
+      "$id": "/properties/endDate", 
+      "type": "integer", 
+      "examples": [
+        1529510400000
+      ]
+    }, 
+    "finalPrice": {
+      "$id": "/properties/finalPrice", 
+      "type": "integer", 
+      "examples": [
+        1
+      ]
+    }, 
+    "priceUnitEnum": {
+      "$id": "/properties/priceUnitEnum", 
+      "type": "string", 
+      "examples": [
+        "D"
+      ]
+    }, 
+    "termIndex": {
+      "$id": "/properties/termIndex", 
+      "type": "integer", 
+      "examples": [
+        1
+      ]
+    }, 
+    "theoryPayMoney": {
+      "$id": "/properties/theoryPayMoney", 
+      "type": "integer", 
+      "examples": [
+        9200
+      ]
+    }, 
+    "payEnum": {
+      "$id": "/properties/payEnum", 
+      "type": "string", 
+      "examples": [
+        "RENT"
+      ]
+    }, 
+    "generateBills": {
+      "$id": "/properties/generateBills", 
+      "type": "boolean", 
+      "examples": [
+        false
+      ]
+    }, 
+    "normalIndex": {
+      "$id": "/properties/normalIndex", 
+      "type": "string", 
+      "examples": [
+        "1-1"
+      ]
+    }, 
+    "applyDate": {
+      "$id": "/properties/applyDate", 
+      "type": "null", 
+      "examples": [
+        null
+      ]
+    }, 
+    "increaseNumber": {
+      "$id": "/properties/increaseNumber", 
+      "type": "null", 
+      "examples": [
+        null
+      ]
+    }, 
+    "increaseRateEnum": {
+      "$id": "/properties/increaseRateEnum", 
+      "type": "null", 
+      "examples": [
+        null
+      ]
+    }
+  }
+}

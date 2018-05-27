@@ -1,0 +1,28 @@
+{
+  "$id": "http://example.com/example.json", 
+  "type": "object", 
+  "definitions": {}, 
+  "$schema": "http://json-schema.org/draft-07/schema#", 
+  "properties": {
+    "createdBy": {
+      "$id": "/properties/createdBy", 
+      "type": "object", 
+      "properties": {
+        "id": {
+          "$id": "/properties/createdBy/properties/id", 
+          "type": "integer", 
+          "examples": [
+            2155
+          ]
+        }, 
+        "name": {
+          "$id": "/properties/createdBy/properties/name", 
+          "type": "string", 
+          "examples": [
+            "联系人1"
+          ]
+        }
+      }
+    }
+  }
+}

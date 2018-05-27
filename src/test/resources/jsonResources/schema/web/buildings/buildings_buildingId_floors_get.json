@@ -1,0 +1,34 @@
+{
+	"$id": "http://example.com/example.json",
+	"type": "object",
+	"definitions": {
+		
+	},
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"properties": {
+		"roomCount": {
+			"$id": "/properties/roomCount",
+			"type": "integer"
+		},
+		"active": {
+			"$id": "/properties/active",
+			"type": "boolean"
+		},
+		"id": {
+			"$id": "/properties/id",
+			"type": "integer"
+		},
+		"floor": {
+			"$id": "/properties/floor",
+			"type": "string"
+		},
+		"queue": {
+			"$id": "/properties/queue",
+			"type": "integer"
+		},
+		"areaSize": {
+			"$id": "/properties/areaSize",
+			"type": "number"
+		}
+	}
+}

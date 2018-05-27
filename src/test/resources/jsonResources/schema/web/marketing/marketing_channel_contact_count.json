@@ -1,0 +1,71 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "freeAgentsCount": {
+      "$id": "/properties/freeAgentsCount",
+      "type": "integer",
+      "title": "The Freeagentscount Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "companyAgentsCount": {
+      "$id": "/properties/companyAgentsCount",
+      "type": "integer",
+      "title": "The Companyagentscount Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "oldClientCount": {
+      "$id": "/properties/oldClientCount",
+      "type": "integer",
+      "title": "The Oldclientcount Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "departmentCount": {
+      "$id": "/properties/departmentCount",
+      "type": "integer",
+      "title": "The Departmentcount Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "thirdPartyCount": {
+      "$id": "/properties/thirdPartyCount",
+      "type": "integer",
+      "title": "The Thirdpartycount Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "shareholderCount": {
+      "$id": "/properties/shareholderCount",
+      "type": "integer",
+      "title": "The Shareholdercount Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "peerCount": {
+      "$id": "/properties/peerCount",
+      "type": "integer",
+      "title": "The Peercount Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    }
+  }
+}

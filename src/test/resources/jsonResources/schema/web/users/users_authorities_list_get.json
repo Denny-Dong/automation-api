@@ -1,0 +1,1332 @@
+{
+	"$id": "http://example.com/example.json",
+	"type": "object",
+	"definitions": {
+		
+	},
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"properties": {
+		"dataScopeAccessLevel": {
+			"$id": "/properties/dataScopeAccessLevel",
+			"type": "array",
+			"items": {
+				"$id": "/properties/dataScopeAccessLevel/items",
+				"type": "object",
+				"properties": {
+					"accessLevel": {
+						"$id": "/properties/dataScopeAccessLevel/items/properties/accessLevel",
+						"type": "string",
+						"title": "The Accesslevel Schema",
+						"default": "",
+						"examples": [
+							"ALL"
+						]
+					},
+					"dataScope": {
+						"$id": "/properties/dataScopeAccessLevel/items/properties/dataScope",
+						"type": "string",
+						"title": "The Datascope Schema",
+						"default": "",
+						"examples": [
+							"CONTRACT"
+						]
+					},
+					"dataScopeName": {
+						"$id": "/properties/dataScopeAccessLevel/items/properties/dataScopeName",
+						"type": "string",
+						"title": "The Datascopename Schema",
+						"default": "",
+						"examples": [
+							"\u67e5\u770b\u6240\u6709\u4eba\u5408\u540c"
+						]
+					},
+					"active": {
+						"$id": "/properties/dataScopeAccessLevel/items/properties/active",
+						"type": "boolean",
+						"title": "The Active Schema",
+						"default": false,
+						"examples": [
+							false
+						]
+					}
+				}
+			}
+		},
+		"USER_MANAGER": {
+			"$id": "/properties/USER_MANAGER",
+			"type": "object",
+			"properties": {
+				"permission": {
+					"$id": "/properties/USER_MANAGER/properties/permission",
+					"type": "string",
+					"title": "The Permission Schema",
+					"default": "",
+					"examples": [
+						"USER_MANAGER"
+					]
+				},
+				"permissionName": {
+					"$id": "/properties/USER_MANAGER/properties/permissionName",
+					"type": "string",
+					"title": "The Permissionname Schema",
+					"default": "",
+					"examples": [
+						"\u5185\u90e8\u4eba\u5458\u7ba1\u7406"
+					]
+				},
+				"active": {
+					"$id": "/properties/USER_MANAGER/properties/active",
+					"type": "boolean",
+					"title": "The Active Schema",
+					"default": false,
+					"examples": [
+						false
+					]
+				},
+				"queue": {
+					"$id": "/properties/USER_MANAGER/properties/queue",
+					"type": "integer",
+					"title": "The Queue Schema",
+					"default": 0,
+					"examples": [
+						1
+					]
+				},
+				"subPermissions": {
+					"$id": "/properties/USER_MANAGER/properties/subPermissions",
+					"type": "array"
+				}
+			}
+		},
+		"userRole": {
+			"$id": "/properties/userRole",
+			"type": "array",
+			"items": {
+				"$id": "/properties/userRole/items",
+				"type": "object",
+				"properties": {
+					"active": {
+						"$id": "/properties/userRole/items/properties/active",
+						"type": "boolean",
+						"title": "The Active Schema",
+						"default": false,
+						"examples": [
+							false
+						]
+					},
+					"userRole": {
+						"$id": "/properties/userRole/items/properties/userRole",
+						"type": "string",
+						"title": "The Userrole Schema",
+						"default": "",
+						"examples": [
+							"CUSTOMER_ADMIN"
+						]
+					},
+					"userRoleName": {
+						"$id": "/properties/userRole/items/properties/userRoleName",
+						"type": "string",
+						"title": "The Userrolename Schema",
+						"default": "",
+						"examples": [
+							"\u4e1a\u4e3b\u7ba1\u7406\u5458\u8d26\u53f7"
+						]
+					}
+				}
+			}
+		},
+		"authorities": {
+			"$id": "/properties/authorities",
+			"type": "object",
+			"properties": {
+				"CONTRACT_APPROVAL": {
+					"$id": "/properties/authorities/properties/CONTRACT_APPROVAL",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/CONTRACT_APPROVAL/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"CONTRACT_APPROVAL"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/CONTRACT_APPROVAL/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u79df\u8d41\u5408\u540c\u5ba1\u6838"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/CONTRACT_APPROVAL/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/CONTRACT_APPROVAL/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								8
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/CONTRACT_APPROVAL/properties/subPermissions",
+							"type": "array"
+						}
+					}
+				},
+				"BUILDING_EDIT": {
+					"$id": "/properties/authorities/properties/BUILDING_EDIT",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/BUILDING_EDIT/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"BUILDING_EDIT"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/BUILDING_EDIT/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u697c\u76d8\u3001\u697c\u5c42\u7f16\u8f91"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/BUILDING_EDIT/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/BUILDING_EDIT/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								2
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/BUILDING_EDIT/properties/subPermissions",
+							"type": "array"
+						}
+					}
+				},
+				"CONTRACT_TEMPLATE": {
+					"$id": "/properties/authorities/properties/CONTRACT_TEMPLATE",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/CONTRACT_TEMPLATE/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"CONTRACT_TEMPLATE"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/CONTRACT_TEMPLATE/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u5408\u540c\u6a21\u677f\u7ba1\u7406"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/CONTRACT_TEMPLATE/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/CONTRACT_TEMPLATE/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								3
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/CONTRACT_TEMPLATE/properties/subPermissions",
+							"type": "array"
+						}
+					}
+				},
+				"PROPERTY": {
+					"$id": "/properties/authorities/properties/PROPERTY",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/PROPERTY/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"PROPERTY"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/PROPERTY/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u7269\u4e1a\u5408\u540c\u65b0\u5efa"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/PROPERTY/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/PROPERTY/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								9
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/PROPERTY/properties/subPermissions",
+							"type": "array",
+							"items": {
+								"$id": "/properties/authorities/properties/PROPERTY/properties/subPermissions/items",
+								"type": "object",
+								"properties": {
+									"permission": {
+										"$id": "/properties/authorities/properties/PROPERTY/properties/subPermissions/items/properties/permission",
+										"type": "string",
+										"title": "The Permission Schema",
+										"default": "",
+										"examples": [
+											"PROPERTY_CONTRACT"
+										]
+									},
+									"permissionName": {
+										"$id": "/properties/authorities/properties/PROPERTY/properties/subPermissions/items/properties/permissionName",
+										"type": "string",
+										"title": "The Permissionname Schema",
+										"default": "",
+										"examples": [
+											"\u7269\u4e1a\u5408\u540c\u4fee\u6539"
+										]
+									},
+									"active": {
+										"$id": "/properties/authorities/properties/PROPERTY/properties/subPermissions/items/properties/active",
+										"type": "boolean",
+										"title": "The Active Schema",
+										"default": false,
+										"examples": [
+											false
+										]
+									},
+									"queue": {
+										"$id": "/properties/authorities/properties/PROPERTY/properties/subPermissions/items/properties/queue",
+										"type": "integer",
+										"title": "The Queue Schema",
+										"default": 0,
+										"examples": [
+											1
+										]
+									},
+									"subPermissions": {
+										"$id": "/properties/authorities/properties/PROPERTY/properties/subPermissions/items/properties/subPermissions",
+										"type": "array"
+									}
+								}
+							}
+						}
+					}
+				},
+				"TAG_MANAGER": {
+					"$id": "/properties/authorities/properties/TAG_MANAGER",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/TAG_MANAGER/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"TAG_MANAGER"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/TAG_MANAGER/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u6807\u7b7e\u7ba1\u7406"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/TAG_MANAGER/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/TAG_MANAGER/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								12
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/TAG_MANAGER/properties/subPermissions",
+							"type": "array",
+							"items": {
+								"$id": "/properties/authorities/properties/TAG_MANAGER/properties/subPermissions/items",
+								"type": "object",
+								"properties": {
+									"permission": {
+										"$id": "/properties/authorities/properties/TAG_MANAGER/properties/subPermissions/items/properties/permission",
+										"type": "string",
+										"title": "The Permission Schema",
+										"default": "",
+										"examples": [
+											"ROOM_TAG_MANAGER"
+										]
+									},
+									"permissionName": {
+										"$id": "/properties/authorities/properties/TAG_MANAGER/properties/subPermissions/items/properties/permissionName",
+										"type": "string",
+										"title": "The Permissionname Schema",
+										"default": "",
+										"examples": [
+											"\u623f\u6e90\u6807\u7b7e\u7ba1\u7406"
+										]
+									},
+									"active": {
+										"$id": "/properties/authorities/properties/TAG_MANAGER/properties/subPermissions/items/properties/active",
+										"type": "boolean",
+										"title": "The Active Schema",
+										"default": false,
+										"examples": [
+											false
+										]
+									},
+									"queue": {
+										"$id": "/properties/authorities/properties/TAG_MANAGER/properties/subPermissions/items/properties/queue",
+										"type": "integer",
+										"title": "The Queue Schema",
+										"default": 0,
+										"examples": [
+											1
+										]
+									},
+									"subPermissions": {
+										"$id": "/properties/authorities/properties/TAG_MANAGER/properties/subPermissions/items/properties/subPermissions",
+										"type": "array"
+									}
+								}
+							}
+						}
+					}
+				},
+				"MARKETING": {
+					"$id": "/properties/authorities/properties/MARKETING",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/MARKETING/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"MARKETING"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/MARKETING/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u5ba2\u6237\u7ba1\u7406\u6743\u9650"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/MARKETING/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/MARKETING/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								false
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/MARKETING/properties/subPermissions",
+							"type": "array",
+							"items": {
+								"$id": "/properties/authorities/properties/MARKETING/properties/subPermissions/items",
+								"type": "object",
+								"properties": {
+									"permission": {
+										"$id": "/properties/authorities/properties/MARKETING/properties/subPermissions/items/properties/permission",
+										"type": "string",
+										"title": "The Permission Schema",
+										"default": "",
+										"examples": [
+											"CHANNEL_CONTACT"
+										]
+									},
+									"permissionName": {
+										"$id": "/properties/authorities/properties/MARKETING/properties/subPermissions/items/properties/permissionName",
+										"type": "string",
+										"title": "The Permissionname Schema",
+										"default": "",
+										"examples": [
+											"\u6211\u7684\u6e20\u9053"
+										]
+									},
+									"active": {
+										"$id": "/properties/authorities/properties/MARKETING/properties/subPermissions/items/properties/active",
+										"type": "boolean",
+										"title": "The Active Schema",
+										"default": false,
+										"examples": [
+											false
+										]
+									},
+									"queue": {
+										"$id": "/properties/authorities/properties/MARKETING/properties/subPermissions/items/properties/queue",
+										"type": "integer",
+										"title": "The Queue Schema",
+										"default": 0,
+										"examples": [
+											1
+										]
+									},
+									"subPermissions": {
+										"$id": "/properties/authorities/properties/MARKETING/properties/subPermissions/items/properties/subPermissions",
+										"type": "array"
+									}
+								}
+							}
+						}
+					}
+				},
+				"CONTRACT": {
+					"$id": "/properties/authorities/properties/CONTRACT",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/CONTRACT/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"CONTRACT"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/CONTRACT/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u79df\u8d41\u5408\u540c\u65b0\u5efa"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/CONTRACT/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/CONTRACT/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								7
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/CONTRACT/properties/subPermissions",
+							"type": "array",
+							"items": {
+								"$id": "/properties/authorities/properties/CONTRACT/properties/subPermissions/items",
+								"type": "object",
+								"properties": {
+									"permission": {
+										"$id": "/properties/authorities/properties/CONTRACT/properties/subPermissions/items/properties/permission",
+										"type": "string",
+										"title": "The Permission Schema",
+										"default": "",
+										"examples": [
+											"CONTRACT_MODIFY"
+										]
+									},
+									"permissionName": {
+										"$id": "/properties/authorities/properties/CONTRACT/properties/subPermissions/items/properties/permissionName",
+										"type": "string",
+										"title": "The Permissionname Schema",
+										"default": "",
+										"examples": [
+											"\u79df\u8d41\u5408\u540c\u4fee\u6539"
+										]
+									},
+									"active": {
+										"$id": "/properties/authorities/properties/CONTRACT/properties/subPermissions/items/properties/active",
+										"type": "boolean",
+										"title": "The Active Schema",
+										"default": false,
+										"examples": [
+											false
+										]
+									},
+									"queue": {
+										"$id": "/properties/authorities/properties/CONTRACT/properties/subPermissions/items/properties/queue",
+										"type": "integer",
+										"title": "The Queue Schema",
+										"default": 0,
+										"examples": [
+											1
+										]
+									},
+									"subPermissions": {
+										"$id": "/properties/authorities/properties/CONTRACT/properties/subPermissions/items/properties/subPermissions",
+										"type": "array"
+									}
+								}
+							}
+						}
+					}
+				},
+				"TENANT": {
+					"$id": "/properties/authorities/properties/TENANT",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/TENANT/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"TENANT"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/TENANT/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u79df\u5ba2\u7ba1\u7406"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/TENANT/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/TENANT/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								14
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/TENANT/properties/subPermissions",
+							"type": "array"
+						}
+					}
+				},
+				"MICRO_BOOK_BUILDING": {
+					"$id": "/properties/authorities/properties/MICRO_BOOK_BUILDING",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/MICRO_BOOK_BUILDING/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"MICRO_BOOK_BUILDING"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/MICRO_BOOK_BUILDING/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u5fae\u697c\u4e66\u7ba1\u7406"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/MICRO_BOOK_BUILDING/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/MICRO_BOOK_BUILDING/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								11
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/MICRO_BOOK_BUILDING/properties/subPermissions",
+							"type": "array"
+						}
+					}
+				},
+				"CUSTOM_TERMINATION_REASON": {
+					"$id": "/properties/authorities/properties/CUSTOM_TERMINATION_REASON",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/CUSTOM_TERMINATION_REASON/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"CUSTOM_TERMINATION_REASON"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/CUSTOM_TERMINATION_REASON/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u9000\u79df\u539f\u56e0\u7ba1\u7406"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/CUSTOM_TERMINATION_REASON/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/CUSTOM_TERMINATION_REASON/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								16
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/CUSTOM_TERMINATION_REASON/properties/subPermissions",
+							"type": "array"
+						}
+					}
+				},
+				"CUSTOM_INDUSTRY": {
+					"$id": "/properties/authorities/properties/CUSTOM_INDUSTRY",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/CUSTOM_INDUSTRY/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"CUSTOM_INDUSTRY"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/CUSTOM_INDUSTRY/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u884c\u4e1a\u7ba1\u7406"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/CUSTOM_INDUSTRY/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/CUSTOM_INDUSTRY/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								13
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/CUSTOM_INDUSTRY/properties/subPermissions",
+							"type": "array"
+						}
+					}
+				},
+				"FINANCE": {
+					"$id": "/properties/authorities/properties/FINANCE",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/FINANCE/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"FINANCE"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/FINANCE/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u6536\u4ed8\u6b3e\u4e1a\u52a1\u6743\u9650"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/FINANCE/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/FINANCE/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								6
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/FINANCE/properties/subPermissions",
+							"type": "array",
+							"items": {
+								"$id": "/properties/authorities/properties/FINANCE/properties/subPermissions/items",
+								"type": "object",
+								"properties": {
+									"permission": {
+										"$id": "/properties/authorities/properties/FINANCE/properties/subPermissions/items/properties/permission",
+										"type": "string",
+										"title": "The Permission Schema",
+										"default": "",
+										"examples": [
+											"FINANCE_AHEAD_INVOICE"
+										]
+									},
+									"permissionName": {
+										"$id": "/properties/authorities/properties/FINANCE/properties/subPermissions/items/properties/permissionName",
+										"type": "string",
+										"title": "The Permissionname Schema",
+										"default": "",
+										"examples": [
+											"\u9884\u5f00\u7968\u6743\u9650"
+										]
+									},
+									"active": {
+										"$id": "/properties/authorities/properties/FINANCE/properties/subPermissions/items/properties/active",
+										"type": "boolean",
+										"title": "The Active Schema",
+										"default": false,
+										"examples": [
+											false
+										]
+									},
+									"queue": {
+										"$id": "/properties/authorities/properties/FINANCE/properties/subPermissions/items/properties/queue",
+										"type": "integer",
+										"title": "The Queue Schema",
+										"default": 0,
+										"examples": [
+											2
+										]
+									},
+									"subPermissions": {
+										"$id": "/properties/authorities/properties/FINANCE/properties/subPermissions/items/properties/subPermissions",
+										"type": "array"
+									}
+								}
+							}
+						}
+					}
+				},
+				"CUSTOM_BILL_TYPE": {
+					"$id": "/properties/authorities/properties/CUSTOM_BILL_TYPE",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/CUSTOM_BILL_TYPE/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"CUSTOM_BILL_TYPE"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/CUSTOM_BILL_TYPE/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u8d39\u7528\u7c7b\u578b\u7ba1\u7406"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/CUSTOM_BILL_TYPE/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/CUSTOM_BILL_TYPE/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								15
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/CUSTOM_BILL_TYPE/properties/subPermissions",
+							"type": "array"
+						}
+					}
+				},
+				"PROPERTY_CONTRACT_APPROVAL": {
+					"$id": "/properties/authorities/properties/PROPERTY_CONTRACT_APPROVAL",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/PROPERTY_CONTRACT_APPROVAL/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"PROPERTY_CONTRACT_APPROVAL"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/PROPERTY_CONTRACT_APPROVAL/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u7269\u4e1a\u5408\u540c\u5ba1\u6838"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/PROPERTY_CONTRACT_APPROVAL/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/PROPERTY_CONTRACT_APPROVAL/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								18
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/PROPERTY_CONTRACT_APPROVAL/properties/subPermissions",
+							"type": "array"
+						}
+					}
+				},
+				"ROOM_EDIT": {
+					"$id": "/properties/authorities/properties/ROOM_EDIT",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/ROOM_EDIT/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"ROOM_EDIT"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/ROOM_EDIT/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u623f\u6e90\u7f16\u8f91"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/ROOM_EDIT/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/ROOM_EDIT/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								false
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/ROOM_EDIT/properties/subPermissions",
+							"type": "array"
+						}
+					}
+				},
+				"ASSETS_EVALUATION": {
+					"$id": "/properties/authorities/properties/ASSETS_EVALUATION",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/ASSETS_EVALUATION/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"ASSETS_EVALUATION"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/ASSETS_EVALUATION/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u8d44\u4ea7\u8bc4\u4f30"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/ASSETS_EVALUATION/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/ASSETS_EVALUATION/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								19
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/ASSETS_EVALUATION/properties/subPermissions",
+							"type": "array"
+						}
+					}
+				},
+				"PROPERTY_CONTRACT_TEMPLATE": {
+					"$id": "/properties/authorities/properties/PROPERTY_CONTRACT_TEMPLATE",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/PROPERTY_CONTRACT_TEMPLATE/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"PROPERTY_CONTRACT_TEMPLATE"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/PROPERTY_CONTRACT_TEMPLATE/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u7269\u4e1a\u5408\u540c\u6a21\u677f\u7ba1\u7406"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/PROPERTY_CONTRACT_TEMPLATE/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/PROPERTY_CONTRACT_TEMPLATE/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								17
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/PROPERTY_CONTRACT_TEMPLATE/properties/subPermissions",
+							"type": "array"
+						}
+					}
+				},
+				"METER_READING": {
+					"$id": "/properties/authorities/properties/METER_READING",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/METER_READING/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"METER_READING"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/METER_READING/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u6c34\u7535\u8868\u6284\u5f55"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/METER_READING/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/METER_READING/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								10
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/METER_READING/properties/subPermissions",
+							"type": "array",
+							"items": {
+								"$id": "/properties/authorities/properties/METER_READING/properties/subPermissions/items",
+								"type": "object",
+								"properties": {
+									"permission": {
+										"$id": "/properties/authorities/properties/METER_READING/properties/subPermissions/items/properties/permission",
+										"type": "string",
+										"title": "The Permission Schema",
+										"default": "",
+										"examples": [
+											"METER_MODIFY"
+										]
+									},
+									"permissionName": {
+										"$id": "/properties/authorities/properties/METER_READING/properties/subPermissions/items/properties/permissionName",
+										"type": "string",
+										"title": "The Permissionname Schema",
+										"default": "",
+										"examples": [
+											"\u6c34\u7535\u8868\u4fee\u6539"
+										]
+									},
+									"active": {
+										"$id": "/properties/authorities/properties/METER_READING/properties/subPermissions/items/properties/active",
+										"type": "boolean",
+										"title": "The Active Schema",
+										"default": false,
+										"examples": [
+											false
+										]
+									},
+									"queue": {
+										"$id": "/properties/authorities/properties/METER_READING/properties/subPermissions/items/properties/queue",
+										"type": "integer",
+										"title": "The Queue Schema",
+										"default": 0,
+										"examples": [
+											1
+										]
+									},
+									"subPermissions": {
+										"$id": "/properties/authorities/properties/METER_READING/properties/subPermissions/items/properties/subPermissions",
+										"type": "array"
+									}
+								}
+							}
+						}
+					}
+				},
+				"DEFAULT_RENT_PRICE": {
+					"$id": "/properties/authorities/properties/DEFAULT_RENT_PRICE",
+					"type": "object",
+					"properties": {
+						"permission": {
+							"$id": "/properties/authorities/properties/DEFAULT_RENT_PRICE/properties/permission",
+							"type": "string",
+							"title": "The Permission Schema",
+							"default": "",
+							"examples": [
+								"DEFAULT_RENT_PRICE"
+							]
+						},
+						"permissionName": {
+							"$id": "/properties/authorities/properties/DEFAULT_RENT_PRICE/properties/permissionName",
+							"type": "string",
+							"title": "The Permissionname Schema",
+							"default": "",
+							"examples": [
+								"\u9884\u79df\u79df\u91d1\u7f16\u8f91"
+							]
+						},
+						"active": {
+							"$id": "/properties/authorities/properties/DEFAULT_RENT_PRICE/properties/active",
+							"type": "boolean",
+							"title": "The Active Schema",
+							"default": false,
+							"examples": [
+								false
+							]
+						},
+						"queue": {
+							"$id": "/properties/authorities/properties/DEFAULT_RENT_PRICE/properties/queue",
+							"type": "integer",
+							"title": "The Queue Schema",
+							"default": 0,
+							"examples": [
+								101
+							]
+						},
+						"subPermissions": {
+							"$id": "/properties/authorities/properties/DEFAULT_RENT_PRICE/properties/subPermissions",
+							"type": "array"
+						}
+					}
+				}
+			}
+		},
+		"building": {
+			"$id": "/properties/building",
+			"type": "array",
+			"items": {
+				"$id": "/properties/building/items",
+				"type": "object",
+				"properties": {
+					"id": {
+						"$id": "/properties/building/items/properties/id",
+						"type": "integer",
+						"title": "The Id Schema",
+						"default": 0,
+						"examples": [
+							17
+						]
+					},
+					"name": {
+						"$id": "/properties/building/items/properties/name",
+						"type": "string",
+						"title": "The Name Schema",
+						"default": "",
+						"examples": [
+							"\u6d4b\u8bd5\u697c11111111"
+						]
+					},
+					"active": {
+						"$id": "/properties/building/items/properties/active",
+						"type": "boolean",
+						"title": "The Active Schema",
+						"default": false,
+						"examples": [
+							false
+						]
+					}
+				}
+			}
+		}
+	}
+}

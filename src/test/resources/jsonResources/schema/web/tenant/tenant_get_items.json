@@ -1,0 +1,520 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "items": {
+      "$id": "/properties/items",
+      "type": "array",
+      "items": {
+        "$id": "/properties/items/items",
+        "type": "object",
+        "properties": {
+          "id": {
+            "$id": "/properties/items/items/properties/id",
+            "type": "integer",
+            "title": "The Id Schema ",
+            "default": 0,
+            "examples": [
+              48794
+            ]
+          },
+          "name": {
+            "$id": "/properties/items/items/properties/name",
+            "type": "string",
+            "title": "The Name Schema ",
+            "default": "",
+            "examples": [
+              "API测试新建租客"
+            ]
+          },
+          "certificateNumber": {
+            "$id": "/properties/items/items/properties/certificateNumber",
+            "type": "null",
+            "title": "The Certificatenumber Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "industry": {
+            "$id": "/properties/items/items/properties/industry",
+            "type": "string",
+            "title": "The Industry Schema ",
+            "default": "",
+            "examples": [
+              "软件开发"
+            ]
+          },
+          "tel": {
+            "$id": "/properties/items/items/properties/tel",
+            "type": "string",
+            "title": "The Tel Schema ",
+            "default": "",
+            "examples": [
+              "13756788765"
+            ]
+          },
+          "email": {
+            "$id": "/properties/items/items/properties/email",
+            "type": "string",
+            "title": "The Email Schema ",
+            "default": "",
+            "examples": [
+              "1234567@qq.com"
+            ]
+          },
+          "status": {
+            "$id": "/properties/items/items/properties/status",
+            "type": "null",
+            "title": "The Status Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "buildingName": {
+            "$id": "/properties/items/items/properties/buildingName",
+            "type": "string",
+            "title": "The Buildingname Schema ",
+            "default": "",
+            "examples": [
+              "-"
+            ]
+          },
+          "startRentDate": {
+            "$id": "/properties/items/items/properties/startRentDate",
+            "type": "null",
+            "title": "The Startrentdate Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "hasCurrentContract": {
+            "$id": "/properties/items/items/properties/hasCurrentContract",
+            "type": "boolean",
+            "title": "The Hascurrentcontract Schema ",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "contacts": {
+            "$id": "/properties/items/items/properties/contacts",
+            "type": "array",
+            "items": {
+              "$id": "/properties/items/items/properties/contacts/items",
+              "type": "object",
+              "properties": {
+                "id": {
+                  "$id": "/properties/items/items/properties/contacts/items/properties/id",
+                  "type": "integer",
+                  "title": "The Id Schema ",
+                  "default": 0,
+                  "examples": [
+                    2940
+                  ]
+                },
+                "name": {
+                  "$id": "/properties/items/items/properties/contacts/items/properties/name",
+                  "type": "null",
+                  "title": "The Name Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                },
+                "email": {
+                  "$id": "/properties/items/items/properties/contacts/items/properties/email",
+                  "type": "null",
+                  "title": "The Email Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                },
+                "tel": {
+                  "$id": "/properties/items/items/properties/contacts/items/properties/tel",
+                  "type": "null",
+                  "title": "The Tel Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                }
+              }
+            }
+          },
+          "businessInfo": {
+            "$id": "/properties/items/items/properties/businessInfo",
+            "type": "object",
+            "properties": {
+              "id": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/id",
+                "type": "integer",
+                "title": "The Id Schema ",
+                "default": 0,
+                "examples": [
+                  10305
+                ]
+              },
+              "unifiedSocialCreditCode": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/unifiedSocialCreditCode",
+                "type": "string",
+                "title": "The Unifiedsocialcreditcode Schema ",
+                "default": "",
+                "examples": [
+                  "12345678"
+                ]
+              },
+              "taxpayerIdNumber": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/taxpayerIdNumber",
+                "type": "string",
+                "title": "The Taxpayeridnumber Schema ",
+                "default": "",
+                "examples": [
+                  "12345678"
+                ]
+              },
+              "registrationNumber": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/registrationNumber",
+                "type": "string",
+                "title": "The Registrationnumber Schema ",
+                "default": "",
+                "examples": [
+                  "12345678"
+                ]
+              },
+              "organizationCode": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/organizationCode",
+                "type": "string",
+                "title": "The Organizationcode Schema ",
+                "default": "",
+                "examples": [
+                  "123456"
+                ]
+              },
+              "legalPerson": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/legalPerson",
+                "type": "string",
+                "title": "The Legalperson Schema ",
+                "default": "",
+                "examples": [
+                  "糖糖"
+                ]
+              },
+              "birthCountry": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/birthCountry",
+                "type": "string",
+                "title": "The Birthcountry Schema ",
+                "default": "",
+                "examples": [
+                  "中国"
+                ]
+              },
+              "registeredCapital": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/registeredCapital",
+                "type": "string",
+                "title": "The Registeredcapital Schema ",
+                "default": "",
+                "examples": [
+                  "6000000"
+                ]
+              },
+              "operatingState": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/operatingState",
+                "type": "string",
+                "title": "The Operatingstate Schema ",
+                "default": "",
+                "examples": [
+                  "营业"
+                ]
+              },
+              "foundingTime": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/foundingTime",
+                "type": "integer",
+                "title": "The Foundingtime Schema ",
+                "default": 0,
+                "examples": [
+                  1521388800000
+                ]
+              },
+              "companyType": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/companyType",
+                "type": "string",
+                "title": "The Companytype Schema ",
+                "default": "",
+                "examples": [
+                  "软件"
+                ]
+              },
+              "staffSize": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/staffSize",
+                "type": "string",
+                "title": "The Staffsize Schema ",
+                "default": "",
+                "examples": [
+                  "2000"
+                ]
+              },
+              "address": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/address",
+                "type": "string",
+                "title": "The Address Schema ",
+                "default": "",
+                "examples": [
+                  "杭州市滨江区"
+                ]
+              },
+              "businessAddress": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/businessAddress",
+                "type": "null",
+                "title": "The Businessaddress Schema ",
+                "default": null,
+                "examples": [
+                  null
+                ]
+              },
+              "businessTerm": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/businessTerm",
+                "type": "string",
+                "title": "The Businessterm Schema ",
+                "default": "",
+                "examples": [
+                  "1522425600000"
+                ]
+              },
+              "registrationAuthority": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/registrationAuthority",
+                "type": "string",
+                "title": "The Registrationauthority Schema ",
+                "default": "",
+                "examples": [
+                  "工商管理局"
+                ]
+              },
+              "approvalTime": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/approvalTime",
+                "type": "string",
+                "title": "The Approvaltime Schema ",
+                "default": "",
+                "examples": [
+                  "1521388800000"
+                ]
+              },
+              "englishName": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/englishName",
+                "type": "string",
+                "title": "The Englishname Schema ",
+                "default": "",
+                "examples": [
+                  "API"
+                ]
+              },
+              "district": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/district",
+                "type": "string",
+                "title": "The District Schema ",
+                "default": "",
+                "examples": [
+                  "浙江"
+                ]
+              },
+              "industry": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/industry",
+                "type": "string",
+                "title": "The Industry Schema ",
+                "default": "",
+                "examples": [
+                  "软件"
+                ]
+              },
+              "businessIndustry": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/businessIndustry",
+                "type": "string",
+                "title": "The Businessindustry Schema ",
+                "default": "",
+                "examples": [
+                  "软件"
+                ]
+              },
+              "businessScope": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/businessScope",
+                "type": "string",
+                "title": "The Businessscope Schema ",
+                "default": "",
+                "examples": [
+                  "软件"
+                ]
+              }
+            }
+          },
+          "invoiceInfo": {
+            "$id": "/properties/items/items/properties/invoiceInfo",
+            "type": "object",
+            "properties": {
+              "id": {
+                "$id": "/properties/items/items/properties/invoiceInfo/properties/id",
+                "type": "integer",
+                "title": "The Id Schema ",
+                "default": 0,
+                "examples": [
+                  11328
+                ]
+              },
+              "bank": {
+                "$id": "/properties/items/items/properties/invoiceInfo/properties/bank",
+                "type": "string",
+                "title": "The Bank Schema ",
+                "default": "",
+                "examples": [
+                  "中国银行"
+                ]
+              },
+              "account": {
+                "$id": "/properties/items/items/properties/invoiceInfo/properties/account",
+                "type": "string",
+                "title": "The Account Schema ",
+                "default": "",
+                "examples": [
+                  "12345678"
+                ]
+              },
+              "taxpayerIdNumber": {
+                "$id": "/properties/items/items/properties/invoiceInfo/properties/taxpayerIdNumber",
+                "type": "string",
+                "title": "The Taxpayeridnumber Schema ",
+                "default": "",
+                "examples": [
+                  "12345678"
+                ]
+              },
+              "tel": {
+                "$id": "/properties/items/items/properties/invoiceInfo/properties/tel",
+                "type": "string",
+                "title": "The Tel Schema ",
+                "default": "",
+                "examples": [
+                  "13545676543"
+                ]
+              },
+              "invoiceInfoTel": {
+                "$id": "/properties/items/items/properties/invoiceInfo/properties/invoiceInfoTel",
+                "type": "string",
+                "title": "The Invoiceinfotel Schema ",
+                "default": "",
+                "examples": [
+                  "13545676543"
+                ]
+              },
+              "address": {
+                "$id": "/properties/items/items/properties/invoiceInfo/properties/address",
+                "type": "string",
+                "title": "The Address Schema ",
+                "default": "",
+                "examples": [
+                  "杭州滨江"
+                ]
+              },
+              "buyerName": {
+                "$id": "/properties/items/items/properties/invoiceInfo/properties/buyerName",
+                "type": "null",
+                "title": "The Buyername Schema ",
+                "default": null,
+                "examples": [
+                  null
+                ]
+              }
+            }
+          },
+          "tags": {
+            "$id": "/properties/items/items/properties/tags",
+            "type": "array"
+          },
+          "createdDate": {
+            "$id": "/properties/items/items/properties/createdDate",
+            "type": "integer",
+            "title": "The Createddate Schema ",
+            "default": 0,
+            "examples": [
+              1521534700000
+            ]
+          },
+          "contactJoin": {
+            "$id": "/properties/items/items/properties/contactJoin",
+            "type": "string",
+            "title": "The Contactjoin Schema ",
+            "default": "",
+            "examples": [
+              ""
+            ]
+          },
+          "tagJoin": {
+            "$id": "/properties/items/items/properties/tagJoin",
+            "type": "string",
+            "title": "The Tagjoin Schema ",
+            "default": "",
+            "examples": [
+              ""
+            ]
+          }
+        }
+      }
+    },
+    "totalCount": {
+      "$id": "/properties/totalCount",
+      "type": "integer",
+      "title": "The Totalcount Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "filter": {
+      "$id": "/properties/filter",
+      "type": "object",
+      "properties": {
+        "industries": {
+          "$id": "/properties/filter/properties/industries",
+          "type": "array",
+          "items": {
+            "$id": "/properties/filter/properties/industries/items",
+            "type": "string",
+            "title": "The 0th Schema ",
+            "default": "",
+            "examples": [
+              "软件开发",
+              "网络科技",
+              "游戏动漫",
+              "网络信息安全",
+              "电商服务",
+              "不能删卖猪行业0 0",
+              "建筑/房地产行业",
+              "互联网",
+              "string"
+            ]
+          }
+        },
+        "tags": {
+          "$id": "/properties/filter/properties/tags",
+          "type": "array",
+          "items": {
+            "$id": "/properties/filter/properties/tags/items",
+            "type": "string",
+            "title": "The 0th Schema ",
+            "default": "",
+            "examples": [
+              "租客标签",
+              "玩儿热天而非",
+              "说的是",
+              "淡而无味",
+              "string"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

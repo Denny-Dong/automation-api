@@ -1,0 +1,135 @@
+{
+  "baseTerm": {
+    "areaSize": 200,
+    "spaceUnit": "P",
+    "signDate": "2018-05-09",
+    "leaseBeginDate": "2018-05-09",
+    "leaseEndDate": "2019-05-08",
+    "monetaryUnit": "人民币CNY",
+    "deposit": 3,
+    "depositUnitEnum": "MONTH",
+    "precisionEnum": "RESULT",
+    "unitPricePrecision": 3
+  },
+  "leaseTerms": [
+    {
+      "termBeginDate": "2018-05-09",
+      "dayNumberForYear": 365,
+      "termEndDate": "2019-05-08",
+      "price": 1,
+      "priceUnitEnum": "D",
+      "payInAdvanceDay": 5,
+      "paymentDateEnum": "DAY",
+      "calculateEnum": "DAY",
+      "intervalMonth": 3,
+      "leaseDivideRoleEnum": "NORMAL"
+    }
+  ],
+  "discounts": [],
+  "increasingRates": [],
+  "depositIncreasingRates": [],
+  "followId": 4463,
+  "tenantName": "租赁合同接口自动化测试",
+  "tenantId": 54658,
+  "legalPerson": {
+    "name": "APITesting"
+  },
+  "contractNo": null,
+  "roomIds": [
+    203393
+  ],
+  "customKeywords": [],
+  "contractContacts": [
+    {
+      "name": "APITesting"
+    }
+  ],
+  "contractPays": [
+    {
+      "increaseRateEnum": null,
+      "termIndex": 1,
+      "payEnum": "RENT",
+      "endDate": 1533657600000,
+      "increaseNumber": null,
+      "normalIndex": "1-1",
+      "priceUnitEnum": "D",
+      "startDate": 1525795200000,
+      "monetaryUnit": "人民币CNY",
+      "theoryPayDate": 1525795200000,
+      "finalPrice": 1,
+      "generateBills": true,
+      "applyDate": null,
+      "theoryPayMoney": 18400
+    },
+    {
+      "increaseRateEnum": null,
+      "termIndex": 2,
+      "payEnum": "RENT",
+      "endDate": 1541606400000,
+      "increaseNumber": null,
+      "normalIndex": "1-2",
+      "priceUnitEnum": "D",
+      "startDate": 1533744000000,
+      "monetaryUnit": "人民币CNY",
+      "theoryPayDate": 1533312000000,
+      "finalPrice": 1,
+      "generateBills": true,
+      "applyDate": null,
+      "theoryPayMoney": 18400
+    },
+    {
+      "increaseRateEnum": null,
+      "termIndex": 3,
+      "payEnum": "RENT",
+      "endDate": 1549555200000,
+      "increaseNumber": null,
+      "normalIndex": "1-3",
+      "priceUnitEnum": "D",
+      "startDate": 1541692800000,
+      "monetaryUnit": "人民币CNY",
+      "theoryPayDate": 1541260800000,
+      "finalPrice": 1,
+      "generateBills": true,
+      "applyDate": null,
+      "theoryPayMoney": 18400
+    },
+    {
+      "increaseRateEnum": null,
+      "termIndex": 4,
+      "payEnum": "RENT",
+      "endDate": 1557244800000,
+      "increaseNumber": null,
+      "normalIndex": "1-4",
+      "priceUnitEnum": "D",
+      "startDate": 1549641600000,
+      "monetaryUnit": "人民币CNY",
+      "theoryPayDate": 1549209600000,
+      "finalPrice": 1,
+      "generateBills": true,
+      "applyDate": null,
+      "theoryPayMoney": 17800
+    },
+    {
+      "increaseRateEnum": null,
+      "termIndex": 5,
+      "payEnum": "DEPOSIT",
+      "endDate": null,
+      "increaseNumber": null,
+      "normalIndex": null,
+      "priceUnitEnum": null,
+      "startDate": null,
+      "monetaryUnit": "人民币CNY",
+      "theoryPayDate": 1525795200000,
+      "finalPrice": 18250,
+      "generateBills": true,
+      "applyDate": null,
+      "theoryPayMoney": 18250
+    }
+  ],
+  "industryName": "互联网",
+  "signer": {
+    "name": "APITesting"
+  },
+  "autoRetirement": false,
+  "transferDeposit": false
+}

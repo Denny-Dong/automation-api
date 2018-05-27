@@ -1,0 +1,388 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "items": {
+      "$id": "/properties/items",
+      "type": "array",
+      "items": {
+        "$id": "/properties/items/items",
+        "type": "object",
+        "properties": {
+          "id": {
+            "$id": "/properties/items/items/properties/id",
+            "type": "integer",
+            "examples": [
+              58786
+            ]
+          },
+          "name": {
+            "$id": "/properties/items/items/properties/name",
+            "type": "string",
+            "examples": [
+              "API测试新建租客"
+            ]
+          },
+          "certificateNumber": {
+            "$id": "/properties/items/items/properties/certificateNumber",
+            "type": "string",
+            "examples": [
+              "12345678"
+            ]
+          },
+          "industry": {
+            "$id": "/properties/items/items/properties/industry",
+            "type": "string",
+            "examples": [
+              "软件开发"
+            ]
+          },
+          "tel": {
+            "$id": "/properties/items/items/properties/tel",
+            "type": "string",
+            "examples": [
+              "13756788765"
+            ]
+          },
+          "email": {
+            "$id": "/properties/items/items/properties/email",
+            "type": "string",
+            "examples": [
+              "1234567@qq.com"
+            ]
+          },
+          "status": {
+            "$id": "/properties/items/items/properties/status",
+            "type": "null",
+            "examples": [
+              null
+            ]
+          },
+          "buildingName": {
+            "$id": "/properties/items/items/properties/buildingName",
+            "type": "string",
+            "examples": [
+              "-"
+            ]
+          },
+          "startRentDate": {
+            "$id": "/properties/items/items/properties/startRentDate",
+            "type": "null",
+            "examples": [
+              null
+            ]
+          },
+          "hasCurrentContract": {
+            "$id": "/properties/items/items/properties/hasCurrentContract",
+            "type": "boolean",
+            "examples": [
+              false
+            ]
+          },
+          "contacts": {
+            "$id": "/properties/items/items/properties/contacts",
+            "type": "array",
+            "items": {
+              "$id": "/properties/items/items/properties/contacts/items",
+              "type": "object",
+              "properties": {
+                "id": {
+                  "$id": "/properties/items/items/properties/contacts/items/properties/id",
+                  "type": "integer",
+                  "examples": [
+                    10594
+                  ]
+                },
+                "name": {
+                  "$id": "/properties/items/items/properties/contacts/items/properties/name",
+                  "type": "null",
+                  "examples": [
+                    null
+                  ]
+                },
+                "email": {
+                  "$id": "/properties/items/items/properties/contacts/items/properties/email",
+                  "type": "null",
+                  "examples": [
+                    null
+                  ]
+                },
+                "tel": {
+                  "$id": "/properties/items/items/properties/contacts/items/properties/tel",
+                  "type": "null",
+                  "examples": [
+                    null
+                  ]
+                }
+              }
+            }
+          },
+          "businessInfo": {
+            "$id": "/properties/items/items/properties/businessInfo",
+            "type": "object",
+            "properties": {
+              "id": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/id",
+                "type": "integer",
+                "examples": [
+                  23345
+                ]
+              },
+              "unifiedSocialCreditCode": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/unifiedSocialCreditCode",
+                "type": "string",
+                "examples": [
+                  "12345678"
+                ]
+              },
+              "taxpayerIdNumber": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/taxpayerIdNumber",
+                "type": "string",
+                "examples": [
+                  "12345678"
+                ]
+              },
+              "registrationNumber": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/registrationNumber",
+                "type": "string",
+                "examples": [
+                  "12345678"
+                ]
+              },
+              "organizationCode": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/organizationCode",
+                "type": "string",
+                "examples": [
+                  "123456"
+                ]
+              },
+              "legalPerson": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/legalPerson",
+                "type": "string",
+                "examples": [
+                  "糖糖"
+                ]
+              },
+              "birthCountry": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/birthCountry",
+                "type": "string",
+                "examples": [
+                  "中国"
+                ]
+              },
+              "registeredCapital": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/registeredCapital",
+                "type": "string",
+                "examples": [
+                  "6000000"
+                ]
+              },
+              "operatingState": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/operatingState",
+                "type": "string",
+                "examples": [
+                  "营业"
+                ]
+              },
+              "foundingTime": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/foundingTime",
+                "type": "integer",
+                "examples": [
+                  1521388800000
+                ]
+              },
+              "companyType": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/companyType",
+                "type": "string",
+                "examples": [
+                  "软件"
+                ]
+              },
+              "staffSize": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/staffSize",
+                "type": "string",
+                "examples": [
+                  "2000"
+                ]
+              },
+              "address": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/address",
+                "type": "string",
+                "examples": [
+                  "杭州市滨江区"
+                ]
+              },
+              "businessAddress": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/businessAddress",
+                "type": "null",
+                "examples": [
+                  null
+                ]
+              },
+              "businessTerm": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/businessTerm",
+                "type": ["integer","string"]
+              },
+              "registrationAuthority": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/registrationAuthority",
+                "type": "string",
+                "examples": [
+                  "工商管理局"
+                ]
+              },
+              "approvalTime": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/approvalTime",
+                "type":  ["integer","string"]
+              },
+              "englishName": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/englishName",
+                "type": "string",
+                "examples": [
+                  "API"
+                ]
+              },
+              "district": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/district",
+                "type": "string",
+                "examples": [
+                  "浙江"
+                ]
+              },
+              "industry": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/industry",
+                "type": "string",
+                "examples": [
+                  "软件"
+                ]
+              },
+              "businessIndustry": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/businessIndustry",
+                "type": "string",
+                "examples": [
+                  "软件"
+                ]
+              },
+              "businessScope": {
+                "$id": "/properties/items/items/properties/businessInfo/properties/businessScope",
+                "type": "string",
+                "examples": [
+                  "软件"
+                ]
+              }
+            }
+          },
+          "invoiceInfo": {
+            "$id": "/properties/items/items/properties/invoiceInfo",
+            "type": "object",
+            "properties": {
+              "id": {
+                "$id": "/properties/items/items/properties/invoiceInfo/properties/id",
+                "type": "integer",
+                "examples": [
+                  24368
+                ]
+              },
+              "bank": {
+                "$id": "/properties/items/items/properties/invoiceInfo/properties/bank",
+                "type": "string",
+                "examples": [
+                  "中国银行"
+                ]
+              },
+              "account": {
+                "$id": "/properties/items/items/properties/invoiceInfo/properties/account",
+                "type": "string",
+                "examples": [
+                  "12345678"
+                ]
+              },
+              "taxpayerIdNumber": {
+                "$id": "/properties/items/items/properties/invoiceInfo/properties/taxpayerIdNumber",
+                "type": "string",
+                "examples": [
+                  "12345678"
+                ]
+              },
+              "tel": {
+                "$id": "/properties/items/items/properties/invoiceInfo/properties/tel",
+                "type": "string",
+                "examples": [
+                  "13545676543"
+                ]
+              },
+              "invoiceInfoTel": {
+                "$id": "/properties/items/items/properties/invoiceInfo/properties/invoiceInfoTel",
+                "type": "string",
+                "examples": [
+                  "13545676543"
+                ]
+              },
+              "address": {
+                "$id": "/properties/items/items/properties/invoiceInfo/properties/address",
+                "type": "string",
+                "examples": [
+                  "杭州滨江"
+                ]
+              },
+              "buyerName": {
+                "$id": "/properties/items/items/properties/invoiceInfo/properties/buyerName",
+                "type": "string",
+                "examples": [
+                  "API测试新建租客"
+                ]
+              }
+            }
+          },
+          "tags": {
+            "$id": "/properties/items/items/properties/tags",
+            "type": "array",
+            "items": {
+              "$id": "/properties/items/items/properties/tags/items",
+              "type": "string",
+              "examples": [
+                "1342"
+              ]
+            }
+          },
+          "createdDate": {
+            "$id": "/properties/items/items/properties/createdDate",
+            "type": "integer",
+            "examples": [
+              1527128890000
+            ]
+          },
+          "contactJoin": {
+            "$id": "/properties/items/items/properties/contactJoin",
+            "type": "string",
+            "examples": [
+              ""
+            ]
+          },
+          "tagJoin": {
+            "$id": "/properties/items/items/properties/tagJoin",
+            "type": "string",
+            "examples": [
+              "1342"
+            ]
+          }
+        }
+      }
+    },
+    "totalCount": {
+      "$id": "/properties/totalCount",
+      "type": "integer",
+      "examples": [
+        1
+      ]
+    },
+    "filter": {
+      "$id": "/properties/filter",
+      "type": "null",
+      "examples": [
+        null
+      ]
+    }
+  }
+}

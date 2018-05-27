@@ -1,0 +1,63 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "totalCount": {
+      "$id": "/properties/totalCount",
+      "type": "integer",
+      "title": "The Totalcount Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "items": {
+      "$id": "/properties/items",
+      "type": "array",
+      "items": {
+        "$id": "/properties/items/items",
+        "type": "object",
+        "properties": {
+          "note": {
+            "$id": "/properties/items/items/properties/note",
+            "type": "string",
+            "title": "The Note Schema ",
+            "default": "",
+            "examples": [
+              "编辑房源。"
+            ]
+          },
+          "id": {
+            "$id": "/properties/items/items/properties/id",
+            "type": "integer",
+            "title": "The Id Schema ",
+            "default": 0,
+            "examples": [
+              61856
+            ]
+          },
+          "userName": {
+            "$id": "/properties/items/items/properties/userName",
+            "type": "string",
+            "title": "The Username Schema ",
+            "default": "",
+            "examples": [
+              "联系人1"
+            ]
+          },
+          "dateCreate": {
+            "$id": "/properties/items/items/properties/dateCreate",
+            "type": "integer",
+            "title": "The Datecreate Schema ",
+            "default": 0,
+            "examples": [
+              1517795574000
+            ]
+          }
+        }
+      }
+    }
+  }
+}

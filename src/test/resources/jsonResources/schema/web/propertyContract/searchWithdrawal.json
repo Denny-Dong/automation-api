@@ -1,0 +1,141 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "id": {
+      "$id": "/properties/id",
+      "type": "integer"
+    },
+    "tenant": {
+      "$id": "/properties/tenant",
+      "type": "string"
+    },
+    "terminationAreaSize": {
+      "$id": "/properties/terminationAreaSize",
+      "type": "number"
+    },
+    "buildings": {
+      "$id": "/properties/buildings",
+      "type": "array",
+      "items": {
+        "$id": "/properties/buildings/items",
+        "type": "object",
+        "properties": {
+          "buildingId": {
+            "$id": "/properties/buildings/items/properties/buildingId",
+            "type": "integer"
+          },
+          "buildingName": {
+            "$id": "/properties/buildings/items/properties/buildingName",
+            "type": "string"
+          },
+          "rooms": {
+            "$id": "/properties/buildings/items/properties/rooms",
+            "type": "array",
+            "items": {
+              "$id": "/properties/buildings/items/properties/rooms/items",
+              "type": "object",
+              "properties": {
+                "roomId": {
+                  "$id": "/properties/buildings/items/properties/rooms/items/properties/roomId",
+                  "type": "integer"
+                },
+                "floor": {
+                  "$id": "/properties/buildings/items/properties/rooms/items/properties/floor",
+                  "type": "string"
+                },
+                "roomNumber": {
+                  "$id": "/properties/buildings/items/properties/rooms/items/properties/roomNumber",
+                  "type": "string"
+                },
+                "areaSize": {
+                  "$id": "/properties/buildings/items/properties/rooms/items/properties/areaSize",
+                  "type": "number"
+                },
+                "price": {
+                  "$id": "/properties/buildings/items/properties/rooms/items/properties/price",
+                  "type": ["number","null"]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "terminationDate": {
+      "$id": "/properties/terminationDate",
+      "type": "integer"
+    },
+ 
+    "registeredAddressModifyEndDate": {
+      "$id": "/properties/registeredAddressModifyEndDate",
+      "type": "integer"
+    },
+    "auditStatus": {
+      "$id": "/properties/auditStatus",
+      "type": "string"
+    },
+    "costsReceivable": {
+      "$id": "/properties/costsReceivable",
+      "type": "array"
+    },
+    "reasons": {
+      "$id": "/properties/reasons",
+      "type": "array"
+    },
+    "memo": {
+      "$id": "/properties/memo",
+      "type": "string"
+    },
+    "bills": {
+      "$id": "/properties/bills",
+      "type": "array"
+    },
+    "forClosedBillIds": {
+      "$id": "/properties/forClosedBillIds",
+      "type": "array"
+    },
+    "settleBillIds": {
+      "$id": "/properties/settleBillIds",
+      "type": "array"
+    },
+    "createdBy": {
+      "$id": "/properties/createdBy",
+      "type": "object",
+      "properties": {
+        "id": {
+          "$id": "/properties/createdBy/properties/id",
+          "type": "integer"
+        },
+        "name": {
+          "$id": "/properties/createdBy/properties/name",
+          "type": "string"
+        }
+      }
+    },
+    "createdDate": {
+      "$id": "/properties/createdDate",
+      "type": "integer"
+    },
+    "lastModifiedBy": {
+      "$id": "/properties/lastModifiedBy",
+      "type": "object",
+      "properties": {
+        "id": {
+          "$id": "/properties/lastModifiedBy/properties/id",
+          "type": "integer"
+        },
+        "name": {
+          "$id": "/properties/lastModifiedBy/properties/name",
+          "type": "string"
+        }
+      }
+    },
+    "lastModifiedDate": {
+      "$id": "/properties/lastModifiedDate",
+      "type": "integer"
+    }
+  }
+}

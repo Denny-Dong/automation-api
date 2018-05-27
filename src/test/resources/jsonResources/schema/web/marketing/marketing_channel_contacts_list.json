@@ -1,0 +1,203 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "items": {
+      "$id": "/properties/items",
+      "type": "array",
+      "items": {
+        "$id": "/properties/items/items",
+        "type": "object",
+        "properties": {
+          "id": {
+            "$id": "/properties/items/items/properties/id",
+            "type": "integer",
+            "title": "The Id Schema ",
+            "default": 0,
+            "examples": [
+              66071
+            ]
+          },
+          "email": {
+            "$id": "/properties/items/items/properties/email",
+            "type": "string",
+            "title": "The Email Schema ",
+            "default": "",
+            "examples": [
+              "1569279792@qq.com"
+            ]
+          },
+          "tel": {
+            "$id": "/properties/items/items/properties/tel",
+            "type": "string",
+            "title": "The Tel Schema ",
+            "default": "",
+            "examples": [
+              "13012345678"
+            ]
+          },
+          "name": {
+            "$id": "/properties/items/items/properties/name",
+            "type": "string",
+            "title": "The Name Schema ",
+            "default": "",
+            "examples": [
+              "张三"
+            ]
+          },
+          "companyName": {
+            "$id": "/properties/items/items/properties/companyName",
+            "type": "string",
+            "title": "The Companyname Schema ",
+            "default": "",
+            "examples": [
+              "杭州匠人网络科技有限公司"
+            ]
+          },
+          "address": {
+            "$id": "/properties/items/items/properties/address",
+            "type": "string",
+            "title": "The Address Schema ",
+            "default": "",
+            "examples": [
+              "滨江区滨安路1181号"
+            ]
+          },
+          "chargeRegions": {
+            "$id": "/properties/items/items/properties/chargeRegions",
+            "type": "array",
+            "items": {
+              "$id": "/properties/items/items/properties/chargeRegions/items",
+              "type": "object",
+              "properties": {
+                "provinceId": {
+                  "$id": "/properties/items/items/properties/chargeRegions/items/properties/provinceId",
+                  "type": "integer",
+                  "title": "The Provinceid Schema ",
+                  "default": 0,
+                  "examples": [
+                    11
+                  ]
+                },
+                "provinceName": {
+                  "$id": "/properties/items/items/properties/chargeRegions/items/properties/provinceName",
+                  "type": "string",
+                  "title": "The Provincename Schema ",
+                  "default": "",
+                  "examples": [
+                    "浙江省"
+                  ]
+                },
+                "cityId": {
+                  "$id": "/properties/items/items/properties/chargeRegions/items/properties/cityId",
+                  "type": "integer",
+                  "title": "The Cityid Schema ",
+                  "default": 0,
+                  "examples": [
+                    121
+                  ]
+                },
+                "cityName": {
+                  "$id": "/properties/items/items/properties/chargeRegions/items/properties/cityName",
+                  "type": "string",
+                  "title": "The Cityname Schema ",
+                  "default": "",
+                  "examples": [
+                    "杭州市"
+                  ]
+                },
+                "areaId": {
+                  "$id": "/properties/items/items/properties/chargeRegions/items/properties/areaId",
+                  "type": "integer",
+                  "title": "The Areaid Schema ",
+                  "default": 0,
+                  "examples": [
+                    1203
+                  ]
+                },
+                "areaName": {
+                  "$id": "/properties/items/items/properties/chargeRegions/items/properties/areaName",
+                  "type": "string",
+                  "title": "The Areaname Schema ",
+                  "default": "",
+                  "examples": [
+                    "滨江区"
+                  ]
+                },
+                "blockId": {
+                  "$id": "/properties/items/items/properties/chargeRegions/items/properties/blockId",
+                  "type": "integer",
+                  "title": "The Blockid Schema ",
+                  "default": 0,
+                  "examples": [
+                    3269
+                  ]
+                },
+                "blockName": {
+                  "$id": "/properties/items/items/properties/chargeRegions/items/properties/blockName",
+                  "type": "string",
+                  "title": "The Blockname Schema ",
+                  "default": "",
+                  "examples": [
+                    "滨江区政府"
+                  ]
+                }
+              }
+            }
+          },
+          "channelModels": {
+            "$id": "/properties/items/items/properties/channelModels",
+            "type": "array"
+          },
+          "visitTimes": {
+            "$id": "/properties/items/items/properties/visitTimes",
+            "type": "integer",
+            "title": "The Visittimes Schema ",
+            "default": 0,
+            "examples": [
+              0
+            ]
+          },
+          "dealCount": {
+            "$id": "/properties/items/items/properties/dealCount",
+            "type": "integer",
+            "title": "The Dealcount Schema ",
+            "default": 0,
+            "examples": [
+              0
+            ]
+          },
+          "latestVisitDate": {
+            "$id": "/properties/items/items/properties/latestVisitDate",
+            "type": "null",
+            "title": "The Latestvisitdate Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          }
+        }
+      }
+    },
+    "totalCount": {
+      "$id": "/properties/totalCount",
+      "type": "integer",
+      "title": "The Totalcount Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "filter": {
+      "$id": "/properties/filter",
+      "type": "null",
+      "title": "The Filter Schema ",
+      "default": null,
+      "examples": [
+        null
+      ]
+    }
+  }
+}

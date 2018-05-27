@@ -1,0 +1,26 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "year": {
+      "$id": "/properties/year",
+      "type": "integer",
+      "title": "The Year Schema ",
+      "default": 0
+    },
+    "month": {
+      "$id": "/properties/month",
+      "type": "integer",
+      "title": "The Month Schema ",
+      "default": 0
+    },
+    "price": {
+      "$id": "/properties/price",
+      "type": "number",
+      "title": "The Price Schema ",
+      "default": 0
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "房源信息": {
+      "$id": "/properties/房源信息",
+      "type": "array",
+      "items": {
+        "$id": "/properties/房源信息/items",
+        "type": "string",
+        "title": "The 0th Schema ",
+        "default": "",
+        "examples": [
+          "楼宇名称",
+          "楼层房号"
+        ]
+      }
+    },
+    "租客信息": {
+      "$id": "/properties/租客信息",
+      "type": "array",
+      "items": {
+        "$id": "/properties/租客信息/items",
+        "type": "string",
+        "title": "The 0th Schema ",
+        "default": "",
+        "examples": [
+          "租客名称",
+          "法人",
+          "租客联系人",
+          "租客联系人电话",
+          "租客联系人公司",
+          "通讯地址",
+          "签订人"
+        ]
+      }
+    },
+    "租赁条款": {
+      "$id": "/properties/租赁条款",
+      "type": "array",
+      "items": {
+        "$id": "/properties/租赁条款/items",
+        "type": "string",
+        "title": "The 0th Schema ",
+        "default": "",
+        "examples": [
+          "年天数",
+          "付款时间",
+          "合同单价",
+          "计费类型",
+          "支付类型"
+        ]
+      }
+    },
+    "基本条款": {
+      "$id": "/properties/基本条款",
+      "type": "array",
+      "items": {
+        "$id": "/properties/基本条款/items",
+        "type": "string",
+        "title": "The 0th Schema ",
+        "default": "",
+        "examples": [
+          "合同编号",
+          "租赁面积",
+          "签订时间",
+          "计租时间",
+          "结束时间",
+          "押金",
+          "押金金额",
+          "大写押金金额"
+        ]
+      }
+    },
+    "递增率条款": {
+      "$id": "/properties/递增率条款",
+      "type": "array",
+      "items": {
+        "$id": "/properties/递增率条款/items",
+        "type": "string",
+        "title": "The 0th Schema ",
+        "default": "",
+        "examples": [
+          "递增率",
+          "递增率起始日&递增率"
+        ]
+      }
+    },
+    "优惠": {
+      "$id": "/properties/优惠",
+      "type": "array",
+      "items": {
+        "$id": "/properties/优惠/items",
+        "type": "string",
+        "title": "The 0th Schema ",
+        "default": "",
+        "examples": [
+          "减免金额",
+          "免租期",
+          "免租期（天数）",
+          "折扣",
+          "折扣金额"
+        ]
+      }
+    },
+    "租金明细报表": {
+      "$id": "/properties/租金明细报表",
+      "type": "array",
+      "items": {
+        "$id": "/properties/租金明细报表/items",
+        "type": "string",
+        "title": "The 0th Schema ",
+        "default": "",
+        "examples": [
+          "总计金额",
+          "首期租金金额",
+          "大写首期金额",
+          "首期涵盖时间",
+          "付款时间表（表格）"
+        ]
+      }
+    }
+  }
+}

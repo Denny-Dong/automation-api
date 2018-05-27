@@ -1,0 +1,29 @@
+{
+  "$id": "http://example.com/example.json", 
+  "type": "object", 
+  "definitions": {}, 
+  "$schema": "http://json-schema.org/draft-07/schema#", 
+  "properties": {
+    "id": {
+      "$id": "/properties/id", 
+      "type": "integer", 
+      "examples": [
+        25843
+      ]
+    }, 
+    "name": {
+      "$id": "/properties/name", 
+      "type": "string", 
+      "examples": [
+        "121312"
+      ]
+    }, 
+    "type": {
+      "$id": "/properties/type", 
+      "type": "string", 
+      "examples": [
+        "BILL"
+      ]
+    }
+  }
+}

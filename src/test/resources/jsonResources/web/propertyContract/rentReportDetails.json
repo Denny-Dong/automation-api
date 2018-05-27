@@ -1,0 +1,28 @@
+{
+	"discounts": [],
+	"increasingRates": [],
+	"depositIncreasingRates":[],
+	"leaseTerms": [{
+		"termBeginDate": "2018-03-09",
+		"termEndDate": "2019-03-08",
+		"calculateEnum": "DAY",
+		"dayNumberForYear": 365,
+		"intervalMonth": 1,
+		"payInAdvanceDay": 2,
+		"paymentDateEnum": "WORKDAY",
+		"price": 3,	
+		"priceUnitEnum": "M"
+	}],
+	"baseTerm": {
+		"areaSize": "1",
+		"spaceUnit": "P",
+		"leaseBeginDate": "2018-03-09",
+		"signDate": "2018-03-09",
+		"leaseEndDate": "2019-03-08",
+		"deposit": 4,
+		"depositUnitEnum": "MONEY",
+		"precisionEnum": "RESULT",
+		"unitPricePrecision": 2,
+		"buildingType": "OFFICE"
+	}
+}

@@ -1,0 +1,165 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "statistics": {
+      "$id": "/properties/statistics",
+      "type": "array",
+      "items": {
+        "$id": "/properties/statistics/items",
+        "type": "object",
+        "properties": {
+          "buildingId": {
+            "$id": "/properties/statistics/items/properties/buildingId",
+            "type": "integer",
+            "examples": [
+              2227
+            ]
+          },
+          "buildingName": {
+            "$id": "/properties/statistics/items/properties/buildingName",
+            "type": "string",
+            "examples": [
+              "统计分析"
+            ]
+          },
+          "provinceName": {
+            "$id": "/properties/statistics/items/properties/provinceName",
+            "type": "string",
+            "examples": [
+              "河北省"
+            ]
+          },
+          "cityName": {
+            "$id": "/properties/statistics/items/properties/cityName",
+            "type": "string",
+            "examples": [
+              "衡水市"
+            ]
+          },
+          "areaName": {
+            "$id": "/properties/statistics/items/properties/areaName",
+            "type": "string",
+            "examples": [
+              "武邑县"
+            ]
+          },
+          "address": {
+            "$id": "/properties/statistics/items/properties/address",
+            "type": "string",
+            "examples": [
+              "说的是"
+            ]
+          },
+          "promotionTel": {
+            "$id": "/properties/statistics/items/properties/promotionTel",
+            "type": "string",
+            "examples": [
+              "213456"
+            ]
+          },
+          "owner": {
+            "$id": "/properties/statistics/items/properties/owner",
+            "type": "null",
+            "examples": [
+              null
+            ]
+          },
+          "purpose": {
+            "$id": "/properties/statistics/items/properties/purpose",
+            "type": "null",
+            "examples": [
+              null
+            ]
+          },
+          "buildupDate": {
+            "$id": "/properties/statistics/items/properties/buildupDate",
+            "type": "null",
+            "examples": [
+              null
+            ]
+          },
+          "alertDaysNum": {
+            "$id": "/properties/statistics/items/properties/alertDaysNum",
+            "type": "integer",
+            "examples": [
+              3
+            ]
+          },
+          "areaSizeTotal": {
+            "$id": "/properties/statistics/items/properties/areaSizeTotal",
+            "type": "integer",
+            "examples": [
+              900
+            ]
+          },
+          "areaSizeRent": {
+            "$id": "/properties/statistics/items/properties/areaSizeRent",
+            "type": "integer",
+            "examples": [
+              0
+            ]
+          },
+          "areaSizeAvailable": {
+            "$id": "/properties/statistics/items/properties/areaSizeAvailable",
+            "type": "integer",
+            "examples": [
+              900
+            ]
+          },
+          "vacantAreaSize": {
+            "$id": "/properties/statistics/items/properties/vacantAreaSize",
+            "type": "integer",
+            "examples": [
+              900
+            ]
+          },
+          "price": {
+            "$id": "/properties/statistics/items/properties/price",
+            "type": "integer",
+            "examples": [
+              0
+            ]
+          },
+          "priceUnit": {
+            "$id": "/properties/statistics/items/properties/priceUnit",
+            "type": "null",
+            "examples": [
+              null
+            ]
+          },
+          "companyCount": {
+            "$id": "/properties/statistics/items/properties/companyCount",
+            "type": "integer",
+            "examples": [
+              0
+            ]
+          },
+          "tenantCount": {
+            "$id": "/properties/statistics/items/properties/tenantCount",
+            "type": "integer",
+            "examples": [
+              0
+            ]
+          },
+          "constructionArea": {
+            "$id": "/properties/statistics/items/properties/constructionArea",
+            "type": "integer",
+            "examples": [
+              0
+            ]
+          },
+          "landArea": {
+            "$id": "/properties/statistics/items/properties/landArea",
+            "type": "integer",
+            "examples": [
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

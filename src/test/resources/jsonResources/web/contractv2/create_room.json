@@ -1,0 +1,30 @@
+{
+  "areaSize": 200,
+  "fitment": "BLANK",
+  "floorName": "1",
+  "marketingAvailable": true,
+  "price": 100,
+  "priceUnit": "D",
+  "roomNumber": "silence的房",
+  "roomPromotionRequest": {
+    "active": true,
+    "areaSize": 0,
+    "availableDate": "2018-09-01",
+    "creamsBuildingId": 0,
+    "creamsRoomId": 0,
+    "description": "string",
+    "fitment": "BLANK",
+    "images": [
+      {
+        "height": 0,
+        "imageUrl": "string",
+        "width": 0
+      }
+    ],
+    "price": 0,
+    "priceUnit": "D"
+  },
+  "roomTags": [
+    "string"
+  ]
+}

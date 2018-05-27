@@ -1,0 +1,28 @@
+{
+	"baseTerm": {
+		"areaSize": 100,
+		"spaceUnit": "P",
+		"signDate": "2018-03-22",
+		"leaseBeginDate": "2018-03-22",
+		"leaseEndDate": "2019-03-21",
+		"deposit": 3,
+		"depositUnitEnum": "MONTH",
+		"precisionEnum": "STEP",
+		"unitPricePrecision": 2
+	},
+	"leaseTerms": [
+		{
+			"termBeginDate": "2018-03-22",
+			"termEndDate": "2019-03-21",
+			"calculateEnum": "DAY",
+			"dayNumberForYear": 365,
+			"intervalMonth": 3,
+			"payInAdvanceDay": 7,
+			"paymentDateEnum": "DAY",
+			"price": 1,
+			"priceUnitEnum": "D"
+		}
+	],
+	"increasingRates": [],
+	"discounts": []
+}

@@ -1,0 +1,70 @@
+{
+  "costsReceivable": [],
+  "tenant": "租赁合同接口自动化测试",
+  "terminationDate": "2018-05-09",
+  "registeredAddressModifyEndDate": "2018-05-09",
+  "signDate": "2018-05-09",
+  "generateBill": true,
+  "memo": "接口自动化退租协议",
+  "bills": [
+    {
+      "id": null,
+      "billId": 498903,
+      "action": "IN",
+      "typeName": "租金",
+      "primeAmount": 18400,
+      "theoryAmount": 200,
+      "payedAmount": 0,
+      "startDate": 1525795200000,
+      "endDate": 1533657600000,
+      "monetaryUnit": "人民币CNY"
+    },
+    {
+      "id": null,
+      "billId": 498898,
+      "action": "IN",
+      "typeName": "租金",
+      "primeAmount": 18400,
+      "theoryAmount": 200,
+      "payedAmount": 0,
+      "startDate": 1525795200000,
+      "endDate": 1533657600000,
+      "monetaryUnit": "人民币CNY"
+    }
+  ],
+  "depositIns": [
+    {
+      "id": null,
+      "billId": 498904,
+      "primeAmount": 18250,
+      "payedAmount": 0,
+      "depositBalance": 0,
+      "monetaryUnit": "人民币CNY"
+    },
+    {
+      "id": null,
+      "billId": 498902,
+      "primeAmount": 18250,
+      "payedAmount": 0,
+      "depositBalance": 0,
+      "monetaryUnit": "人民币CNY"
+    }
+  ],
+  "reasons": [
+    "正常到期"
+  ],
+  "forClosedBillIds": [
+    498905,
+    498907,
+    498906,
+    498901,
+    498900,
+    498899
+  ],
+  "settleBillIds": [
+    498903,
+    498898,
+    498904,
+    498902
+  ]
+}

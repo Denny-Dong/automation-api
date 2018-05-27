@@ -1,0 +1,106 @@
+{
+	"$id": "http://example.com/example.json",
+	"type": "object",
+	"definitions": {
+		
+	},
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"properties": {
+		"area": {
+			"$id": "/properties/area",
+			"type": "string"
+		},
+		"buildingName": {
+			"$id": "/properties/buildingName",
+			"type": "string"
+		},
+		"priceUnit": {
+			"$id": "/properties/priceUnit",
+			"type": "string"
+		},
+		"rooms": {
+			"$id": "/properties/rooms",
+			"type": "array",
+			"items": {
+				"$id": "/properties/rooms/items",
+				"type": "object",
+				"properties": {
+					"floorId": {
+						"$id": "/properties/rooms/items/properties/floorId",
+						"type": "integer"
+					},
+					"roomNumber": {
+						"$id": "/properties/rooms/items/properties/roomNumber",
+						"type": "string"
+					},
+					"floorQueue": {
+						"$id": "/properties/rooms/items/properties/floorQueue",
+						"type": "integer"
+					},
+					"id": {
+						"$id": "/properties/rooms/items/properties/id",
+						"type": "integer"
+					},
+					"floor": {
+						"$id": "/properties/rooms/items/properties/floor",
+						"type": "string"
+					},
+					"roomQueue": {
+						"$id": "/properties/rooms/items/properties/roomQueue",
+						"type": "integer"
+					},
+					"areaSize": {
+						"$id": "/properties/rooms/items/properties/areaSize",
+						"type": "number"
+					}
+				}
+			}
+		},
+		"address": {
+			"$id": "/properties/address",
+			"type": "string"
+		},
+		"province": {
+			"$id": "/properties/province",
+			"type": "string"
+		},
+		"city": {
+			"$id": "/properties/city",
+			"type": "string"
+		},
+		"price": {
+			"$id": "/properties/price",
+			"type": "number"
+		},
+		"imageUrl": {
+			"$id": "/properties/imageUrl",
+			"type": "string"
+		},
+		"id": {
+			"$id": "/properties/id",
+			"type": "integer"
+		},
+		"users": {
+			"$id": "/properties/users",
+			"type": "array",
+			"items": {
+				"$id": "/properties/users/items",
+				"type": "object",
+				"properties": {
+					"name": {
+						"$id": "/properties/users/items/properties/name",
+						"type": "string"
+					},
+					"id": {
+						"$id": "/properties/users/items/properties/id",
+						"type": "integer"
+					}
+				}
+			}
+		},
+		"buildingId": {
+			"$id": "/properties/buildingId",
+			"type": "integer"
+		}
+	}
+}

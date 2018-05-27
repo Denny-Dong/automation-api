@@ -1,0 +1,150 @@
+{
+  "$id": "http://example.com/example.json", 
+  "type": "object", 
+  "definitions": {}, 
+  "$schema": "http://json-schema.org/draft-07/schema#", 
+  "properties": {
+    "id": {
+      "$id": "/properties/id", 
+      "type": "integer"
+    }, 
+    "tenantId": {
+      "$id": "/properties/tenantId", 
+      "type": "integer"
+    }, 
+    "tenantName": {
+      "$id": "/properties/tenantName", 
+      "type": "string"
+    }, 
+    "industryName": {
+      "$id": "/properties/industryName", 
+      "type": "string"
+    }, 
+    "legalPerson": {
+      "$id": "/properties/legalPerson", 
+      "type": "string"
+    }, 
+    "signer": {
+      "$id": "/properties/signer", 
+      "type": "string"
+    }, 
+    "buildingName": {
+      "$id": "/properties/buildingName", 
+      "type": "string"
+    }, 
+    "rooms": {
+      "$id": "/properties/rooms", 
+      "type": "array", 
+      "items": {
+        "$id": "/properties/rooms/items", 
+        "type": "object", 
+        "properties": {
+          "roomId": {
+            "$id": "/properties/rooms/items/properties/roomId", 
+            "type": "integer"
+          }, 
+          "floor": {
+            "$id": "/properties/rooms/items/properties/floor", 
+            "type": "string"
+          }, 
+          "roomNumber": {
+            "$id": "/properties/rooms/items/properties/roomNumber", 
+            "type": "string"
+          }, 
+          "areaSize": {
+            "$id": "/properties/rooms/items/properties/areaSize", 
+            "type": "integer"
+          }
+        }
+      }
+    }, 
+    "areaSize": {
+      "$id": "/properties/areaSize", 
+      "type": "integer"
+    }, 
+    "spaceUnit": {
+      "$id": "/properties/spaceUnit", 
+      "type": "string"
+    }, 
+    "hasTerminated": {
+      "$id": "/properties/hasTerminated", 
+      "type": "boolean"
+    }, 
+    "startDate": {
+      "$id": "/properties/startDate", 
+      "type": "integer"
+    }, 
+    "endDate": {
+      "$id": "/properties/endDate", 
+      "type": "integer"
+    }, 
+    "signDate": {
+      "$id": "/properties/signDate", 
+      "type": "integer"
+    }, 
+    "firstPayTermPrice": {
+      "$id": "/properties/firstPayTermPrice", 
+      "type": "number"
+    }, 
+    "priceUnit": {
+      "$id": "/properties/priceUnit", 
+      "type": "string"
+    }, 
+    "creationStatus": {
+      "$id": "/properties/creationStatus", 
+      "type": "string"
+    }, 
+    "terminationStatus": {
+      "$id": "/properties/terminationStatus", 
+      "type": "null"
+    }, 
+    "nullificationStatus": {
+      "$id": "/properties/nullificationStatus", 
+      "type": "null"
+    }, 
+    "deposit": {
+      "$id": "/properties/deposit", 
+      "type": "integer"
+    }, 
+    "depositUnitEnum": {
+      "$id": "/properties/depositUnitEnum", 
+      "type": "string"
+    }, 
+    "depositAmount": {
+      "$id": "/properties/depositAmount", 
+      "type": "number"
+    }, 
+    "contractNo": {
+      "$id": "/properties/contractNo", 
+      "type": "string"
+    }, 
+    "followName": {
+      "$id": "/properties/followName", 
+      "type": "string"
+    }, 
+    "renewContract": {
+      "$id": "/properties/renewContract", 
+      "type": "boolean"
+    }, 
+    "hasRenewed": {
+      "$id": "/properties/hasRenewed", 
+      "type": "boolean"
+    }, 
+    "buildingType": {
+      "$id": "/properties/buildingType", 
+      "type": "null"
+    }, 
+    "dayNumberForYear": {
+      "$id": "/properties/dayNumberForYear", 
+      "type": "integer"
+    }, 
+    "auditStatusName": {
+      "$id": "/properties/auditStatusName", 
+      "type": "string"
+    }, 
+    "showStatus": {
+      "$id": "/properties/showStatus", 
+      "type": "string"
+    }
+  }
+}

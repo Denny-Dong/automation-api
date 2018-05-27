@@ -1,0 +1,17 @@
+{
+  "costsReceivable": [],
+  "tenant": "儿童",
+  "terminationDate": "2022-03-21",
+  "registeredAddressModifyEndDate": "2022-03-21",
+  "signDate": "2018-03-21",
+  "generateBill": true,
+  "memo": "",
+  "bills": [
+  ],
+  "depositIn": null,
+  "reasons": [],
+  "forClosedBillIds": [
+  ],
+  "settleBillIds": [
+  ]
+}

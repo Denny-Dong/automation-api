@@ -1,0 +1,129 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": {
+    "$id": "http://example.com/example.json/items",
+    "type": "object",
+    "properties": {
+      "theoryPayDate": {
+        "$id": "http://example.com/example.json/items/properties/theoryPayDate",
+        "type": "integer",
+        "title": "The Theorypaydate Schema ",
+        "default": 0,
+        "examples": [
+          1521475200000
+        ]
+      },
+      "startDate": {
+        "$id": "http://example.com/example.json/items/properties/startDate",
+        "type": "integer",
+        "title": "The Startdate Schema ",
+        "default": 0,
+        "examples": [
+          1521475200000
+        ]
+      },
+      "endDate": {
+        "$id": "http://example.com/example.json/items/properties/endDate",
+        "type": "integer",
+        "title": "The Enddate Schema ",
+        "default": 0,
+        "examples": [
+          1529337600000
+        ]
+      },
+      "finalPrice": {
+        "$id": "http://example.com/example.json/items/properties/finalPrice",
+        "type": "integer",
+        "title": "The Finalprice Schema ",
+        "default": 0,
+        "examples": [
+          1
+        ]
+      },
+      "priceUnitEnum": {
+        "$id": "http://example.com/example.json/items/properties/priceUnitEnum",
+        "type": "string",
+        "title": "The Priceunitenum Schema ",
+        "default": "",
+        "examples": [
+          "D"
+        ]
+      },
+      "termIndex": {
+        "$id": "http://example.com/example.json/items/properties/termIndex",
+        "type": "integer",
+        "title": "The Termindex Schema ",
+        "default": 0,
+        "examples": [
+          1
+        ]
+      },
+      "theoryPayMoney": {
+        "$id": "http://example.com/example.json/items/properties/theoryPayMoney",
+        "type": "integer",
+        "title": "The Theorypaymoney Schema ",
+        "default": 0,
+        "examples": [
+          18400
+        ]
+      },
+      "payEnum": {
+        "$id": "http://example.com/example.json/items/properties/payEnum",
+        "type": "string",
+        "title": "The Payenum Schema ",
+        "default": "",
+        "examples": [
+          "RENT"
+        ]
+      },
+      "generateBills": {
+        "$id": "http://example.com/example.json/items/properties/generateBills",
+        "type": "boolean",
+        "title": "The Generatebills Schema ",
+        "default": false,
+        "examples": [
+          false
+        ]
+      },
+      "normalIndex": {
+        "$id": "http://example.com/example.json/items/properties/normalIndex",
+        "type": "string",
+        "title": "The Normalindex Schema ",
+        "default": "",
+        "examples": [
+          "1-1"
+        ]
+      },
+      "applyDate": {
+        "$id": "http://example.com/example.json/items/properties/applyDate",
+        "type": "null",
+        "title": "The Applydate Schema ",
+        "default": null,
+        "examples": [
+          null
+        ]
+      },
+      "increaseNumber": {
+        "$id": "http://example.com/example.json/items/properties/increaseNumber",
+        "type": "null",
+        "title": "The Increasenumber Schema ",
+        "default": null,
+        "examples": [
+          null
+        ]
+      },
+      "increaseRateEnum": {
+        "$id": "http://example.com/example.json/items/properties/increaseRateEnum",
+        "type": "null",
+        "title": "The Increaserateenum Schema ",
+        "default": null,
+        "examples": [
+          null
+        ]
+      }
+    }
+  }
+}

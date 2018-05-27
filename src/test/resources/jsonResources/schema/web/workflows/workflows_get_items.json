@@ -1,0 +1,89 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "demandId": {
+      "$id": "/properties/demandId",
+      "type": "integer",
+      "title": "The Demandid Schema ",
+      "default": 0,
+      "examples": [
+        7891
+      ]
+    },
+    "buildingName": {
+      "$id": "/properties/buildingName",
+      "type": "string",
+      "title": "The Buildingname Schema ",
+      "default": "",
+      "examples": [
+        "test"
+      ]
+    },
+    "createdDate": {
+      "$id": "/properties/createdDate",
+      "type": "integer",
+      "title": "The Createddate Schema ",
+      "default": 0,
+      "examples": [
+        1515059403000
+      ]
+    },
+    "notificationId": {
+      "$id": "/properties/notificationId",
+      "type": "integer",
+      "title": "The Notificationid Schema ",
+      "default": 0,
+      "examples": [
+        1434
+      ]
+    },
+    "notificationTime": {
+      "$id": "/properties/notificationTime",
+      "type": "integer",
+      "title": "The Notificationtime Schema ",
+      "default": 0,
+      "examples": [
+        1515750480000
+      ]
+    },
+    "notificationMessage": {
+      "$id": "/properties/notificationMessage",
+      "type": "string",
+      "title": "The Notificationmessage Schema ",
+      "default": "",
+      "examples": [
+        "3"
+      ]
+    },
+    "clientName": {
+      "$id": "/properties/clientName",
+      "type": "string",
+      "title": "The Clientname Schema ",
+      "default": "",
+      "examples": [
+        "4"
+      ]
+    },
+    "clientTel": {
+      "$id": "/properties/clientTel",
+      "type": "string",
+      "title": "The Clienttel Schema ",
+      "default": "",
+      "examples": [
+        "-"
+      ]
+    },
+    "createdBy": {
+      "$id": "/properties/createdBy",
+      "type": "string",
+      "title": "The Createdby Schema ",
+      "default": "",
+      "examples": [
+        "55"
+      ]
+    }
+  }
+}

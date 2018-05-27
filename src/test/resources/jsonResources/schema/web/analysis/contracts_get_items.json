@@ -1,0 +1,42 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": {
+    "$id": "http://example.com/example.json/items",
+    "type": "object",
+    "properties": {
+      "year": {
+        "$id": "http://example.com/example.json/items/properties/year",
+        "type": "integer",
+        "title": "The Year Schema ",
+        "default": 0
+      },
+      "month": {
+        "$id": "http://example.com/example.json/items/properties/month",
+        "type": "integer",
+        "title": "The Month Schema ",
+        "default": 0
+      },
+      "areaSize": {
+        "$id": "http://example.com/example.json/items/properties/areaSize",
+        "type": "number",
+        "title": "The Areasize Schema ",
+        "default": 0
+      },
+      "count": {
+        "$id": "http://example.com/example.json/items/properties/count",
+        "type": "integer",
+        "title": "The Count Schema ",
+        "default": 0
+      },
+      "spaceUnit": {
+        "$id": "http://example.com/example.json/items/properties/spaceUnit",
+        "type": "string",
+        "title": "The Spaceunit Schema ",
+        "default": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,245 @@
+{
+	"$id": "http://example.com/example.json",
+	"type": "object",
+	"definitions": {
+		
+	},
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"properties": {
+		"area": {
+			"$id": "/properties/area",
+			"type": "object",
+			"properties": {
+				"name": {
+					"$id": "/properties/area/properties/name",
+					"type": "string"
+				},
+				"id": {
+					"$id": "/properties/area/properties/id",
+					"type": "integer"
+				}
+			}
+		},
+		"owner": {
+			"$id": "/properties/owner",
+			"type": "string"
+		},
+		"alertDaysNum": {
+			"$id": "/properties/alertDaysNum",
+			"type": "integer"
+		},
+		"address": {
+			"$id": "/properties/address",
+			"type": "string"
+		},
+		"promotionTel": {
+			"$id": "/properties/promotionTel",
+			"type": "string"
+		},
+		"city": {
+			"$id": "/properties/city",
+			"type": "object",
+			"properties": {
+				"name": {
+					"$id": "/properties/city/properties/name",
+					"type": "string"
+				},
+				"id": {
+					"$id": "/properties/city/properties/id",
+					"type": "integer"
+				}
+			}
+		},
+		"purpose": {
+			"$id": "/properties/purpose",
+			"type": "string"
+		},
+		"landArea": {
+			"$id": "/properties/landArea",
+			"type": "string"
+		},
+		"buildingAreaSize": {
+			"$id": "/properties/buildingAreaSize",
+			"type": "number"
+		},
+		"province": {
+			"$id": "/properties/province",
+			"type": "object",
+			"properties": {
+				"name": {
+					"$id": "/properties/province/properties/name",
+					"type": "string"
+				},
+				"id": {
+					"$id": "/properties/province/properties/id",
+					"type": "integer"
+				}
+			}
+		},
+		"contractSettings": {
+			"$id": "/properties/contractSettings",
+			"type": "object",
+			"properties": {
+				"priceUnit": {
+					"$id": "/properties/contractSettings/properties/priceUnit",
+					"type": "string"
+				},
+				"payInAdvanceType": {
+					"$id": "/properties/contractSettings/properties/payInAdvanceType",
+					"type": "string"
+				},
+				"contractNumberPrefix": {
+					"$id": "/properties/contractSettings/properties/contractNumberPrefix",
+					"type": "string"
+				},
+				"depositUnit": {
+					"$id": "/properties/contractSettings/properties/depositUnit",
+					"type": "string"
+				},
+				"payInAdvanceDay": {
+					"$id": "/properties/contractSettings/properties/payInAdvanceDay",
+					"type": "integer"
+				},
+				"calculateType": {
+					"$id": "/properties/contractSettings/properties/calculateType",
+					"type": "string"
+				},
+				"spaceUnit": {
+					"$id": "/properties/contractSettings/properties/spaceUnit",
+					"type": "string"
+				},
+				"intervalMonth": {
+					"$id": "/properties/contractSettings/properties/intervalMonth",
+					"type": "integer"
+				},
+				"id": {
+					"$id": "/properties/contractSettings/properties/id",
+					"type": "integer"
+				},
+				"dayNumberPerYear": {
+					"$id": "/properties/contractSettings/properties/dayNumberPerYear",
+					"type": "integer"
+				},
+				"openApproval": {
+					"$id": "/properties/contractSettings/properties/openApproval",
+					"type": "boolean"
+				},
+				"calculatePrecision": {
+					"$id": "/properties/contractSettings/properties/calculatePrecision",
+					"type": "string"
+				},
+				"unitPricePrecision": {
+					"$id": "/properties/contractSettings/properties/unitPricePrecision",
+					"type": "integer"
+				}
+			}
+		},
+		"budgets": {
+			"$id": "/properties/budgets",
+			"type": "array",
+			"additionalItems": false
+		},
+		"areaSizeTotal": {
+			"$id": "/properties/areaSizeTotal",
+			"type": "number"
+		},
+		"propertySettings": {
+			"$id": "/properties/propertySettings",
+			"type": "object",
+			"properties": {
+				"propertyUnit": {
+					"$id": "/properties/propertySettings/properties/propertyUnit",
+					"type": "string"
+				},
+				"payInAdvanceType": {
+					"$id": "/properties/propertySettings/properties/payInAdvanceType",
+					"type": "string"
+				},
+				"depositUnit": {
+					"$id": "/properties/propertySettings/properties/depositUnit",
+					"type": "string"
+				},
+				"payInAdvanceDay": {
+					"$id": "/properties/propertySettings/properties/payInAdvanceDay",
+					"type": "integer"
+				},
+				"energyPayType": {
+					"$id": "/properties/propertySettings/properties/energyPayType",
+					"type": "integer"
+				},
+				"energyPayInAdvanceDay": {
+					"$id": "/properties/propertySettings/properties/energyPayInAdvanceDay",
+					"type": "integer"
+				},
+				"payType": {
+					"$id": "/properties/propertySettings/properties/payType",
+					"type": "integer"
+				},
+				"energyPayInAdvanceType": {
+					"$id": "/properties/propertySettings/properties/energyPayInAdvanceType",
+					"type": "string"
+				},
+				"propertyType": {
+					"$id": "/properties/propertySettings/properties/propertyType",
+					"type": "string"
+				},
+				"propertyCalculateType": {
+					"$id": "/properties/propertySettings/properties/propertyCalculateType",
+					"type": "string"
+				},
+				"propertyFee": {
+					"$id": "/properties/propertySettings/properties/propertyFee",
+					"type": "number"
+				},
+				"dayNumberPerYear": {
+					"$id": "/properties/propertySettings/properties/dayNumberPerYear",
+					"type": "integer"
+				},
+				"energyFee": {
+					"$id": "/properties/propertySettings/properties/energyFee",
+					"type": "number"
+				},
+				"calculatePrecision": {
+					"$id": "/properties/propertySettings/properties/calculatePrecision",
+					"type": "string"
+				},
+				"energyCalculateType": {
+					"$id": "/properties/propertySettings/properties/energyCalculateType",
+					"type": "string"
+				},
+				"unitPricePrecision": {
+					"$id": "/properties/propertySettings/properties/unitPricePrecision",
+					"type": "integer"
+				},
+				"energyUnit": {
+					"$id": "/properties/propertySettings/properties/energyUnit",
+					"type": "string"
+				}
+			}
+		},
+		"imageUrl": {
+			"$id": "/properties/imageUrl",
+			"type": "string"
+		},
+		"name": {
+			"$id": "/properties/name",
+			"type": "string"
+		},
+		"recycleContractNo": {
+			"$id": "/properties/recycleContractNo",
+			"type": "boolean"
+		},
+		"buildupDate": {
+			"$id": "/properties/buildupDate",
+			"type": "string"
+		},
+		"id": {
+			"$id": "/properties/id",
+			"type": "integer"
+		},
+		"constructionArea": {
+			"$id": "/properties/constructionArea",
+			"type": "string"
+		}
+	}
+}

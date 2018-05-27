@@ -1,0 +1,98 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "areaSize": {
+      "$id": "/properties/areaSize",
+      "type": "integer",
+      "title": "The Areasize Schema ",
+      "default": 0,
+      "examples": [
+        123
+      ]
+    },
+    "spaceUnit": {
+      "$id": "/properties/spaceUnit",
+      "type": "string",
+      "title": "The Spaceunit Schema ",
+      "default": "",
+      "examples": [
+        "P"
+      ]
+    },
+    "buildingType": {
+      "$id": "/properties/buildingType",
+      "type": "string",
+      "title": "The Buildingtype Schema ",
+      "default": "",
+      "examples": [
+        "OFFICE"
+      ]
+    },
+    "signDate": {
+      "$id": "/properties/signDate",
+      "type": "integer",
+      "title": "The Signdate Schema ",
+      "default": 0,
+      "examples": [
+        1520438400000
+      ]
+    },
+    "leaseBeginDate": {
+      "$id": "/properties/leaseBeginDate",
+      "type": "integer",
+      "title": "The Leasebegindate Schema ",
+      "default": 0,
+      "examples": [
+        1520438400000
+      ]
+    },
+    "leaseEndDate": {
+      "$id": "/properties/leaseEndDate",
+      "type": "integer",
+      "title": "The Leaseenddate Schema ",
+      "default": 0,
+      "examples": [
+        1551888000000
+      ]
+    },
+    "deposit": {
+      "$id": "/properties/deposit",
+      "type": "integer",
+      "title": "The Deposit Schema ",
+      "default": 0,
+      "examples": [
+        3
+      ]
+    },
+    "depositUnitEnum": {
+      "$id": "/properties/depositUnitEnum",
+      "type": "string",
+      "title": "The Depositunitenum Schema ",
+      "default": "",
+      "examples": [
+        "MONEY"
+      ]
+    },
+    "precisionEnum": {
+      "$id": "/properties/precisionEnum",
+      "type": "string",
+      "title": "The Precisionenum Schema ",
+      "default": "",
+      "examples": [
+        "RESULT"
+      ]
+    },
+    "unitPricePrecision": {
+      "$id": "/properties/unitPricePrecision",
+      "type": "integer",
+      "title": "The Unitpriceprecision Schema ",
+      "default": 0,
+      "examples": [
+        2
+      ]
+    }
+  }
+}

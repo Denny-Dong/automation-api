@@ -1,0 +1,23 @@
+{
+	"$id": "http://example.com/example.json",
+	"type": "object",
+	"properties": {
+		"totalCount": {
+			"$id": "/properties/totalCount",
+			"type": "integer",
+			"title": "The Totalcount Schema",
+			"default": 0,
+			"examples": [
+				0
+			]
+		},
+		"items": {
+			"$id": "/properties/items",
+			"type": "array"
+		}
+	},
+	"required": [
+		"totalCount",
+		"items"
+	]
+}

@@ -1,0 +1,45 @@
+{
+  "businessInfo": {
+    "address": "杭州市滨江区",
+    "approvalTime": "1521388800000",
+    "birthCountry": "中国",
+    "businessScope": "软件",
+    "businessTerm": "1522425600000",
+    "companyType": "软件",
+    "district": "浙江",
+    "englishName": "API",
+    "foundingTime": 1521388800000,
+    "industry": "软件",
+    "legalPerson": "糖糖",
+    "operatingState": "营业",
+    "organizationCode": "123456",
+    "registeredCapital": "6000000",
+    "registrationAuthority": "工商管理局",
+    "registrationNumber": "12345678",
+    "staffSize": "2000",
+    "taxpayerIdNumber": "12345678",
+    "unifiedSocialCreditCode": "12345678"
+  },
+  "certificateNumber":"12345678",
+  "contacts": [
+    {
+      "address":null,
+      "company": null,
+      "email": null,
+      "name": null,
+      "tel": null
+    }
+  ],
+  "email": "1234567@qq.com",
+  "industry": "软件开发",
+  "invoiceInfo": {
+    "account": "12345678",
+    "address": "杭州滨江",
+    "bank": "中国银行",
+    "taxpayerIdNumber": "12345678",
+    "tel": "13545676543"
+  },
+  "name": "API测试新建租客",
+  "tags": [],
+  "tel": "13756788765"
+}

@@ -1,0 +1,96 @@
+{
+  "contractPays": [
+    {
+      "increaseRateEnum": null,
+      "termIndex": 1,
+      "payEnum": "RENT",
+      "endDate": 1540915200000,
+      "increaseNumber": null,
+      "normalIndex": "1-1",
+      "priceUnitEnum": "M",
+      "startDate": 1525104000000,
+      "monetaryUnit": "人民币CNY",
+      "theoryPayDate": 1525104000000,
+      "finalPrice": 4,
+      "generateBills": true,
+      "applyDate": null,
+      "theoryPayMoney": 3600
+    },
+    {
+      "increaseRateEnum": null,
+      "termIndex": 2,
+      "payEnum": "RENT",
+      "endDate": 1556553600000,
+      "increaseNumber": null,
+      "normalIndex": "1-2",
+      "priceUnitEnum": "M",
+      "startDate": 1541001600000,
+      "monetaryUnit": "人民币CNY",
+      "theoryPayDate": 1538668800000,
+      "finalPrice": 2,
+      "generateBills": true,
+      "applyDate": null,
+      "theoryPayMoney": 3600
+    },
+    {
+      "increaseRateEnum": null,
+      "termIndex": 3,
+      "payEnum": "DEPOSIT",
+      "endDate": null,
+      "increaseNumber": null,
+      "normalIndex": null,
+      "priceUnitEnum": null,
+      "startDate": null,
+      "monetaryUnit": "人民币CNY",
+      "theoryPayDate": 1525104000000,
+      "finalPrice": 2,
+      "generateBills": true,
+      "applyDate": null,
+      "theoryPayMoney": 2
+    }
+  ],
+  "discounts": [],
+  "followId": 0,
+  "followName": "",
+  "leaseTerms": [
+    {
+      "termBeginDate": "2018-05-01",
+      "termEndDate": "2019-04-30",
+      "calculateEnum": "MONTH",
+      "dayNumberForYear": 365,
+      "intervalMonth": 6,
+      "payInAdvanceDay": 5,
+      "paymentDateEnum": "SPECIFY",
+      "price": 2,
+      "priceUnitEnum": "M",
+      "contractPayEnum": "RENT",
+      "leaseDivideRoleEnum": "NORMAL",
+      "monthPriceConvertRoleEnum": "CONVERT_BY_YEAR"
+    }
+  ],
+  "legalPerson": {
+    "name": ""
+  },
+  "roomIds": [
+    200261
+  ],
+  "tenantId": 56062,
+  "baseTerm": {
+    "areaSize": "300",
+    "spaceUnit": "P",
+    "leaseBeginDate": "2018-05-01",
+    "signDate": "2018-05-01",
+    "leaseEndDate": "2019-04-30",
+    "deposit": 2,
+    "depositUnitEnum": "MONEY",
+    "precisionEnum": "RESULT",
+    "unitPricePrecision": 2,
+    "buildingType": "OFFICE",
+    "monetaryUnit": "人民币CNY"
+  },
+  "tenantName": "111",
+  "signer": null,
+  "customKeywords": [],
+  "depositIncreasingRates": [],
+  "increasingRates": []
+}

@@ -1,0 +1,159 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "items": {
+      "$id": "/properties/items",
+      "type": "array",
+      "items": {
+        "$id": "/properties/items/items",
+        "type": "object",
+        "properties": {
+          "id": {
+            "$id": "/properties/items/items/properties/id",
+            "type": "integer",
+            "title": "The Id Schema ",
+            "default": 0,
+            "examples": [
+              48827
+            ]
+          },
+          "settingId": {
+            "$id": "/properties/items/items/properties/settingId",
+            "type": "integer",
+            "title": "The Settingid Schema ",
+            "default": 0,
+            "examples": [
+              8376
+            ]
+          },
+          "subDomainType": {
+            "$id": "/properties/items/items/properties/subDomainType",
+            "type": "string",
+            "title": "The Subdomaintype Schema ",
+            "default": "",
+            "examples": [
+              "NULLIFICATION_APPROVAL"
+            ]
+          },
+          "domainType": {
+            "$id": "/properties/items/items/properties/domainType",
+            "type": "string",
+            "title": "The Domaintype Schema ",
+            "default": "",
+            "examples": [
+              "CONTRACT"
+            ]
+          },
+          "description": {
+            "$id": "/properties/items/items/properties/description",
+            "type": "string",
+            "title": "The Description Schema ",
+            "default": "",
+            "examples": [
+              "wd的楼2号/来续租阿/续签的合同"
+            ]
+          },
+          "startedBy": {
+            "$id": "/properties/items/items/properties/startedBy",
+            "type": "object",
+            "properties": {
+              "id": {
+                "$id": "/properties/items/items/properties/startedBy/properties/id",
+                "type": "integer",
+                "title": "The Id Schema ",
+                "default": 0,
+                "examples": [
+                  2155
+                ]
+              },
+              "name": {
+                "$id": "/properties/items/items/properties/startedBy/properties/name",
+                "type": "string",
+                "title": "The Name Schema ",
+                "default": "",
+                "examples": [
+                  "联系人1"
+                ]
+              }
+            }
+          },
+          "createdDate": {
+            "$id": "/properties/items/items/properties/createdDate",
+            "type": "integer",
+            "title": "The Createddate Schema ",
+            "default": 0,
+            "examples": [
+              1520994951000
+            ]
+          },
+          "workflowStatus": {
+            "$id": "/properties/items/items/properties/workflowStatus",
+            "type": "string",
+            "title": "The Workflowstatus Schema ",
+            "default": "",
+            "examples": [
+              "FINISHED"
+            ]
+          },
+          "taskStatus": {
+            "$id": "/properties/items/items/properties/taskStatus",
+            "type": "string",
+            "title": "The Taskstatus Schema ",
+            "default": "",
+            "examples": [
+              "APPROVED"
+            ]
+          },
+          "objectId": {
+            "$id": "/properties/items/items/properties/objectId",
+            "type": "integer",
+            "title": "The Objectid Schema ",
+            "default": 0,
+            "examples": [
+              3859
+            ]
+          },
+          "buildingId": {
+            "$id": "/properties/items/items/properties/buildingId",
+            "type": "integer",
+            "title": "The Buildingid Schema ",
+            "default": 0,
+            "examples": [
+              3478
+            ]
+          },
+          "approvalResult": {
+            "$id": "/properties/items/items/properties/approvalResult",
+            "type": "string",
+            "title": "The Approvalresult Schema ",
+            "default": "",
+            "examples": [
+              "APPROVED"
+            ]
+          }
+        }
+      }
+    },
+    "totalCount": {
+      "$id": "/properties/totalCount",
+      "type": "integer",
+      "title": "The Totalcount Schema ",
+      "default": 0,
+      "examples": [
+        556
+      ]
+    },
+    "filter": {
+      "$id": "/properties/filter",
+      "type": "null",
+      "title": "The Filter Schema ",
+      "default": null,
+      "examples": [
+        null
+      ]
+    }
+  }
+}

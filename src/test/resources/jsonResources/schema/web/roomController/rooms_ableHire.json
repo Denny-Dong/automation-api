@@ -1,0 +1,174 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "priceUnit": {
+      "$id": "/properties/priceUnit",
+      "type": ["integer","string"],
+      "title": "The Priceunit Schema ",
+      "default": "",
+      "examples": [
+        "D"
+      ]
+    },
+    "roomNumber": {
+      "$id": "/properties/roomNumber",
+      "type": "string",
+      "title": "The Roomnumber Schema ",
+      "default": "",
+      "examples": [
+        "2002"
+      ]
+    },
+    "endDate": {
+      "$id": "/properties/endDate",
+      "type": "string",
+      "title": "The Enddate Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "marketingAvailable": {
+      "$id": "/properties/marketingAvailable",
+      "type": "boolean",
+      "title": "The Marketingavailable Schema ",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "contractStartDate": {
+      "$id": "/properties/contractStartDate",
+      "type": "string",
+      "title": "The Contractstartdate Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "lastOccupiedDate": {
+      "$id": "/properties/lastOccupiedDate",
+      "type": "string",
+      "title": "The Lastoccupieddate Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "active": {
+      "$id": "/properties/active",
+      "type": "boolean",
+      "title": "The Active Schema ",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "contractPriceUnit": {
+      "$id": "/properties/contractPriceUnit",
+      "type": "string",
+      "title": "The Contractpriceunit Schema ",
+      "default": "",
+      "examples": [
+        "D"
+      ]
+    },
+    "buildingId": {
+      "$id": "/properties/buildingId",
+      "type": "integer",
+      "title": "The Buildingid Schema ",
+      "default": 0,
+      "examples": [
+        3664
+      ]
+    },
+    "terminationDate": {
+      "$id": "/properties/terminationDate",
+      "type": "string",
+      "title": "The Terminationdate Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "buildingName": {
+      "$id": "/properties/buildingName",
+      "type": "string",
+      "title": "The Buildingname Schema ",
+      "default": "",
+      "examples": [
+        "西湖国际科技大厦"
+      ]
+    },
+    "fitment": {
+      "$id": "/properties/fitment",
+      "type": "string",
+      "title": "The Fitment Schema ",
+      "default": "",
+      "examples": [
+        "BLANK"
+      ]
+    },
+    "price": {
+      "$id": "/properties/price",
+      "type": "number",
+      "title": "The Price Schema ",
+      "default": 0,
+      "examples": [
+        2
+      ]
+    },
+    "id": {
+      "$id": "/properties/id",
+      "type": "integer",
+      "title": "The Id Schema ",
+      "default": 0,
+      "examples": [
+        175644
+      ]
+    },
+    "floor": {
+      "$id": "/properties/floor",
+      "type": "string",
+      "title": "The Floor Schema ",
+      "default": "",
+      "examples": [
+        "2"
+      ]
+    },
+    "queue": {
+      "$id": "/properties/queue",
+      "type": "integer",
+      "title": "The Queue Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "areaSize": {
+      "$id": "/properties/areaSize",
+      "type": "number",
+      "title": "The Areasize Schema ",
+      "default": 0,
+      "examples": [
+        88.62999725341797
+      ]
+    },
+    "startDate": {
+      "$id": "/properties/startDate",
+      "type": "string",
+      "title": "The Startdate Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "roomTags": {
+      "$id": "/properties/roomTags",
+      "type": "array"
+    }
+  }
+}
